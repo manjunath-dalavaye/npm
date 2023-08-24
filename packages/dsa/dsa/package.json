@@ -1,0 +1,61 @@
+{
+  "name": "@ilihub/dsa",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A collection of useful TypeScript functions and utilities for data structures and algorithms.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "homepage": "https://ilihub.tech",
+  "funding": "https://www.buymeacoffee.com/ilihub",
+  "author": {
+    "name": "ilihub",
+    "email": "contact@ilihub.tech",
+    "url": "https://github.com/ilihub"
+  },
+  "keywords": [
+    "ilihub",
+    "code",
+    "dsa",
+    "data structures",
+    "algorithms",
+    "tools",
+    "typescript",
+    "functions",
+    "utils"
+  ],
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\"",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "check-types": "tsc --noEmit",
+    "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
+  },
+  "dependencies": {
+    "@ilihub/binary-search": "workspace:*",
+    "@ilihub/bubble-sort": "workspace:*",
+    "@ilihub/counting-sort": "workspace:*",
+    "@ilihub/heap-sort": "workspace:*",
+    "@ilihub/insertion-sort": "workspace:*",
+    "@ilihub/linear-search": "workspace:*",
+    "@ilihub/merge-sort": "workspace:*",
+    "@ilihub/quick-sort": "workspace:*",
+    "@ilihub/radix-sort": "workspace:*",
+    "@ilihub/selection-sort": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "tsconfig": "workspace:*",
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3"
+  }
+}
