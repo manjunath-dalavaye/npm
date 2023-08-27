@@ -119,11 +119,140 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/dsa/selection-sort
 
+  examples/number-system/ascii-to-binary-example:
+    devDependencies:
+      '@ilihub/ascii-to-binary':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/ascii-to-binary
+
+  examples/number-system/ascii-to-decimal-example:
+    devDependencies:
+      '@ilihub/ascii-to-decimal':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/ascii-to-decimal
+
+  examples/number-system/ascii-to-hexadecimal-example:
+    devDependencies:
+      '@ilihub/ascii-to-hexadecimal':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/ascii-to-hexadecimal
+
+  examples/number-system/ascii-to-octal-example:
+    devDependencies:
+      '@ilihub/ascii-to-octal':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/ascii-to-octal
+
+  examples/number-system/binary-to-ascii-example:
+    devDependencies:
+      '@ilihub/binary-to-ascii':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/binary-to-ascii
+
+  examples/number-system/binary-to-decimal-example:
+    devDependencies:
+      '@ilihub/binary-to-decimal':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/binary-to-decimal
+
+  examples/number-system/binary-to-hexadecimal-example:
+    devDependencies:
+      '@ilihub/binary-to-hexadecimal':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/binary-to-hexadecimal
+
+  examples/number-system/binary-to-octal-example:
+    devDependencies:
+      '@ilihub/binary-to-octal':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/binary-to-octal
+
+  examples/number-system/decimal-to-ascii-example:
+    devDependencies:
+      '@ilihub/decimal-to-ascii':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/decimal-to-ascii
+
+  examples/number-system/decimal-to-binary-example:
+    devDependencies:
+      '@ilihub/decimal-to-binary':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/decimal-to-binary
+
+  examples/number-system/decimal-to-hexadecimal-example:
+    devDependencies:
+      '@ilihub/decimal-to-hexadecimal':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/decimal-to-hexadecimal
+
+  examples/number-system/decimal-to-octal-example:
+    devDependencies:
+      '@ilihub/decimal-to-octal':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/decimal-to-octal
+
+  examples/number-system/hexadecimal-to-ascii-example:
+    devDependencies:
+      '@ilihub/hexadecimal-to-ascii':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/hexadecimal-to-ascii
+
+  examples/number-system/hexadecimal-to-binary-example:
+    devDependencies:
+      '@ilihub/hexadecimal-to-binary':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/hexadecimal-to-binary
+
+  examples/number-system/hexadecimal-to-decimal-example:
+    devDependencies:
+      '@ilihub/hexadecimal-to-decimal':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/hexadecimal-to-decimal
+
+  examples/number-system/hexadecimal-to-octal-example:
+    devDependencies:
+      '@ilihub/hexadecimal-to-octal':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/hexadecimal-to-octal
+
+  examples/number-system/number-system-examples:
+    devDependencies:
+      '@ilihub/number-system':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/number-system
+
+  examples/number-system/octal-to-ascii-example:
+    devDependencies:
+      '@ilihub/octal-to-ascii':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/octal-to-ascii
+
+  examples/number-system/octal-to-binary-example:
+    devDependencies:
+      '@ilihub/octal-to-binary':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/octal-to-binary
+
+  examples/number-system/octal-to-decimal-example:
+    devDependencies:
+      '@ilihub/octal-to-decimal':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/octal-to-decimal
+
+  examples/number-system/octal-to-hexadecimal-example:
+    devDependencies:
+      '@ilihub/octal-to-hexadecimal':
+        specifier: workspace:*
+        version: link:../../../packages/number-system/octal-to-hexadecimal
+
   packages/code:
     dependencies:
       '@ilihub/dsa':
         specifier: workspace:*
         version: link:../dsa/dsa
+      '@ilihub/number-system':
+        specifier: workspace:*
+        version: link:../number-system/number-system
     devDependencies:
       '@types/jest':
         specifier: ^29.5.2
@@ -452,6 +581,634 @@ importers:
         version: 5.1.6
 
   packages/dsa/selection-sort:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/ascii-to-binary:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/ascii-to-decimal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/ascii-to-hexadecimal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/ascii-to-octal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/binary-to-ascii:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/binary-to-decimal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/binary-to-hexadecimal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/binary-to-octal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/decimal-to-ascii:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/decimal-to-binary:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/decimal-to-hexadecimal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/decimal-to-octal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/hexadecimal-to-ascii:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/hexadecimal-to-binary:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/hexadecimal-to-decimal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/hexadecimal-to-octal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/number-system:
+    dependencies:
+      '@ilihub/ascii-to-binary':
+        specifier: workspace:*
+        version: link:../ascii-to-binary
+      '@ilihub/ascii-to-decimal':
+        specifier: workspace:*
+        version: link:../ascii-to-decimal
+      '@ilihub/ascii-to-hexadecimal':
+        specifier: workspace:*
+        version: link:../ascii-to-hexadecimal
+      '@ilihub/ascii-to-octal':
+        specifier: workspace:*
+        version: link:../ascii-to-octal
+      '@ilihub/binary-to-ascii':
+        specifier: workspace:*
+        version: link:../binary-to-ascii
+      '@ilihub/binary-to-decimal':
+        specifier: workspace:*
+        version: link:../binary-to-decimal
+      '@ilihub/binary-to-hexadecimal':
+        specifier: workspace:*
+        version: link:../binary-to-hexadecimal
+      '@ilihub/binary-to-octal':
+        specifier: workspace:*
+        version: link:../binary-to-octal
+      '@ilihub/decimal-to-ascii':
+        specifier: workspace:*
+        version: link:../decimal-to-ascii
+      '@ilihub/decimal-to-binary':
+        specifier: workspace:*
+        version: link:../decimal-to-binary
+      '@ilihub/decimal-to-hexadecimal':
+        specifier: workspace:*
+        version: link:../decimal-to-hexadecimal
+      '@ilihub/decimal-to-octal':
+        specifier: workspace:*
+        version: link:../decimal-to-octal
+      '@ilihub/hexadecimal-to-ascii':
+        specifier: workspace:*
+        version: link:../hexadecimal-to-ascii
+      '@ilihub/hexadecimal-to-binary':
+        specifier: workspace:*
+        version: link:../hexadecimal-to-binary
+      '@ilihub/hexadecimal-to-decimal':
+        specifier: workspace:*
+        version: link:../hexadecimal-to-decimal
+      '@ilihub/hexadecimal-to-octal':
+        specifier: workspace:*
+        version: link:../hexadecimal-to-octal
+      '@ilihub/octal-to-ascii':
+        specifier: workspace:*
+        version: link:../octal-to-ascii
+      '@ilihub/octal-to-binary':
+        specifier: workspace:*
+        version: link:../octal-to-binary
+      '@ilihub/octal-to-decimal':
+        specifier: workspace:*
+        version: link:../octal-to-decimal
+      '@ilihub/octal-to-hexadecimal':
+        specifier: workspace:*
+        version: link:../octal-to-hexadecimal
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/octal-to-ascii:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/octal-to-binary:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/octal-to-decimal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.2
+        version: 29.5.2
+      eslint:
+        specifier: ^7.32.0
+        version: 7.32.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.5.0
+        version: 29.5.0(@types/node@17.0.45)
+      ts-jest:
+        specifier: ^29.1.0
+        version: 29.1.0(@babel/core@7.22.10)(esbuild@0.17.19)(jest@29.5.0)(typescript@5.1.6)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.6)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.6
+
+  packages/number-system/octal-to-hexadecimal:
     devDependencies:
       '@types/jest':
         specifier: ^29.5.2

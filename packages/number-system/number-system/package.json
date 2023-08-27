@@ -1,0 +1,69 @@
+{
+  "name": "@ilihub/number-system",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A collection of useful TypeScript functions to perform number system conversions.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "homepage": "https://code.ilihub.tech",
+  "funding": "https://www.buymeacoffee.com/ilihub",
+  "author": {
+    "name": "ilihub",
+    "email": "contact@ilihub.tech",
+    "url": "https://github.com/ilihub"
+  },
+  "keywords": [
+    "ilihub",
+    "code",
+    "number system",
+    "tools",
+    "typescript",
+    "functions",
+    "utils"
+  ],
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\"",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "check-types": "tsc --noEmit",
+    "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
+  },
+  "dependencies": {
+    "@ilihub/ascii-to-binary": "workspace:*",
+    "@ilihub/ascii-to-decimal": "workspace:*",
+    "@ilihub/ascii-to-hexadecimal": "workspace:*",
+    "@ilihub/ascii-to-octal": "workspace:*",
+    "@ilihub/binary-to-ascii": "workspace:*",
+    "@ilihub/binary-to-decimal": "workspace:*",
+    "@ilihub/binary-to-hexadecimal": "workspace:*",
+    "@ilihub/binary-to-octal": "workspace:*",
+    "@ilihub/decimal-to-ascii": "workspace:*",
+    "@ilihub/decimal-to-binary": "workspace:*",
+    "@ilihub/decimal-to-hexadecimal": "workspace:*",
+    "@ilihub/decimal-to-octal": "workspace:*",
+    "@ilihub/hexadecimal-to-ascii": "workspace:*",
+    "@ilihub/hexadecimal-to-binary": "workspace:*",
+    "@ilihub/hexadecimal-to-decimal": "workspace:*",
+    "@ilihub/hexadecimal-to-octal": "workspace:*",
+    "@ilihub/octal-to-ascii": "workspace:*",
+    "@ilihub/octal-to-binary": "workspace:*",
+    "@ilihub/octal-to-decimal": "workspace:*",
+    "@ilihub/octal-to-hexadecimal": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "tsconfig": "workspace:*",
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3"
+  }
+}
