@@ -1,0 +1,1 @@
+export * from "./HeaderCase/HeaderCaseStringToDotCaseString";

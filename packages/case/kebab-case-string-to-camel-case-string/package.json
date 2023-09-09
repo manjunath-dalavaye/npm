@@ -1,0 +1,50 @@
+{
+  "name": "@ilihub/kebab-case-string-to-camel-case-string",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Convert kebab-case string to camelCase string",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "homepage": "https://code.ilihub.tech",
+  "funding": "https://www.buymeacoffee.com/ilihub",
+  "author": {
+    "name": "ilihub",
+    "email": "contact@ilihub.tech",
+    "url": "https://github.com/ilihub"
+  },
+  "keywords": [
+    "ilihub",
+    "code",
+    "string",
+    "case",
+    "camelCase",
+    "kebabCase",
+    "tools",
+    "typescript",
+    "functions",
+    "utils"
+  ],
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\"",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "check-types": "tsc --noEmit",
+    "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "tsconfig": "workspace:*",
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3"
+  }
+}

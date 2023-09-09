@@ -1,0 +1,12 @@
+{
+  "name": "dot-case-string-to-kebab-case-string-example",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "for file in *.js; do val=$(node $file); echo \"$file ==> $val\"; done"
+  },
+  "devDependencies": {
+    "@ilihub/dot-case-string-to-kebab-case-string": "workspace:*"
+  }
+}

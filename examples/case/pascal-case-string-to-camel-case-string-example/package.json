@@ -1,0 +1,12 @@
+{
+  "name": "pascal-case-string-to-camel-case-string-example",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "for file in *.js; do val=$(node $file); echo \"$file ==> $val\"; done"
+  },
+  "devDependencies": {
+    "@ilihub/pascal-case-string-to-camel-case-string": "workspace:*"
+  }
+}

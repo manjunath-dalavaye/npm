@@ -1,6 +1,6 @@
 {
   "name": "@ilihub/code",
-  "version": "1.0.1",
+  "version": "1.0.9",
   "publishConfig": {
     "access": "public"
   },
@@ -40,6 +40,7 @@
     "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
   },
   "dependencies": {
+    "@ilihub/case": "workspace:*",
     "@ilihub/dsa": "workspace:*",
     "@ilihub/number-system": "workspace:*"
   },
