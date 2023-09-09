@@ -8,13 +8,15 @@
     "test": "turbo run test",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,mdx,json}\"",
     "all": "turbo lint && pnpm build && pnpm test && pnpm format",
-    "publish-packages": "pnpm all && changeset version && changeset publish"
+    "publish-packages": "pnpm all && changeset version && changeset publish",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "@turbo/gen": "^1.9.7",
     "eslint": "^7.32.0",
     "eslint-config-custom": "workspace:*",
+    "husky": "latest",
     "prettier": "^2.7.1",
     "turbo": "latest"
   },
