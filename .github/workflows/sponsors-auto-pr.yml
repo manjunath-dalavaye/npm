@@ -1,0 +1,11 @@
+name: Sponsors Auto PR
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - readme-update-sponsors-section
+
+jobs:
+  auto_pr:
+    uses: ilihub/.github/.github/workflows/sponsors-auto-pr.yml@master

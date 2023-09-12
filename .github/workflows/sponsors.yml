@@ -1,0 +1,10 @@
+name: Update Sponsors Section
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+jobs:
+  update_sponsors:
+    uses: ilihub/.github/.github/workflows/sponsors.yml@master
