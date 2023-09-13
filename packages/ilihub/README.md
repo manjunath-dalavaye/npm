@@ -32,7 +32,9 @@ const result = BinarySearch(arr, 5);
 console.log(result); // 4
 ```
 
-<!-- sponsors_and_backers_start -->
+---
+
+<!-- sponsors_and_backers_section_start -->
 
 ## Sponsors & Backers
 
@@ -46,27 +48,25 @@ The core of ilihub is our crowd-funded open-source projects, licensed under the 
 
 [![Diamond Sponsor][diamond_sponsor_logo_img]][open_collective_url]
 
-Diamond Sponsors are those who have pledged $100/month or more to ilihub via [Open Collective][open_collective_url]
+Diamond Sponsors are those who have pledged &#0036;100/month or more to ilihub via [Open Collective][open_collective_url]
 
 ### 💝 Gold Sponsor 💝
 
 [![Gold Sponsor][gold_sponsor_logo_img]][open_collective_url]
 
-Gold Sponsors are those who have pledged $50/month or more to ilihub via [Open Collective][open_collective_url]
+Gold Sponsors are those who have pledged &#0036;50/month or more to ilihub via [Open Collective][open_collective_url]
 
 ### 🎁 Backer 🎁
 
 [![Backer][backer_logo_img]][open_collective_url]
 
-Backers are those who have pledged $10/month or more to ilihub via [Open Collective][open_collective_url]
+Backers are those who have pledged &#0036;10/month or more to ilihub via [Open Collective][open_collective_url]
 
 ### 🤝 Supporter 🤝
 
 [![Supporter][supporter_logo_img]][open_collective_url]
 
 Supporters are those who have pledged any amount to ilihub via [Open Collective][open_collective_url]
-
----
 
 <!-- Reference Links -->
 
@@ -83,4 +83,6 @@ Supporters are those who have pledged any amount to ilihub via [Open Collective]
 
 <!-- Reference Links End -->
 
-<!-- sponsors_and_backers_end -->
+<!-- sponsors_and_backers_section_end -->
+
+---

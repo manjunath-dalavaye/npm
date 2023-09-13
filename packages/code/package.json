@@ -1,6 +1,6 @@
 {
   "name": "@ilihub/code",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "publishConfig": {
     "access": "public"
   },
@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "homepage": "https://code.ilihub.tech",
-  "funding": "https://www.buymeacoffee.com/ilihub",
+  "funding": "https://opencollective.com/ilihub",
   "repository": {
     "type": "git",
     "url": "https://github.com/ilihub/npm.git"

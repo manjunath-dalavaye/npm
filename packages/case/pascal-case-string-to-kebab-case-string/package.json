@@ -1,6 +1,6 @@
 {
   "name": "@ilihub/pascal-case-string-to-kebab-case-string",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "publishConfig": {
     "access": "public"
   },
@@ -12,7 +12,15 @@
   ],
   "license": "MIT",
   "homepage": "https://code.ilihub.tech",
-  "funding": "https://www.buymeacoffee.com/ilihub",
+  "funding": "https://opencollective.com/ilihub",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilihub/npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilihub/npm/issues",
+    "email": "contact@ilihub.tech"
+  },
   "author": {
     "name": "ilihub",
     "email": "contact@ilihub.tech",
