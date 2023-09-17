@@ -1,1 +1,1 @@
-export * from "./Search/LinearSearch";
+export * from "./linear-search";

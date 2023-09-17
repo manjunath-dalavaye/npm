@@ -1,1 +1,1 @@
-export * from "./LowerCase/LowerCaseStringToDotCaseString";
+export * from "./lower-case-string-to-dot-case-string";

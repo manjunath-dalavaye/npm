@@ -1,1 +1,1 @@
-export * from "./Ascii/AsciiToHexadecimal";
+export * from "./ascii-to-hexadecimal";

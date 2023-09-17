@@ -1,1 +1,1 @@
-export * from "./Sort/SelectionSort";
+export * from "./selection-sort";

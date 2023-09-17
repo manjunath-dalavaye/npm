@@ -1,5 +1,15 @@
 # @ilihub/code
 
+## 1.0.12
+
+### Patch Changes
+
+- Migrate to turbo@1.10.14
+- Updated dependencies
+  - @ilihub/number-system@1.0.3
+  - @ilihub/case@1.0.10
+  - @ilihub/dsa@1.0.3
+
 ## 1.0.11
 
 ### Patch Changes

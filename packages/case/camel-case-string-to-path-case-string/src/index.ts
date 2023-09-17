@@ -1,1 +1,1 @@
-export * from "./CamelCase/CamelCaseStringToPathCaseString";
+export * from "./camel-case-string-to-path-case-string";

@@ -1,1 +1,1 @@
-export * from "./Sort/HeapSort";
+export * from "./heap-sort";

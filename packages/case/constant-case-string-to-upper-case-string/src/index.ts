@@ -1,1 +1,1 @@
-export * from "./ConstantCase/ConstantCaseStringToUpperCaseString";
+export * from "./constant-case-string-to-upper-case-string";

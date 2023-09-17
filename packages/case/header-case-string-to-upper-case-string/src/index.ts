@@ -1,1 +1,1 @@
-export * from "./HeaderCase/HeaderCaseStringToUpperCaseString";
+export * from "./header-case-string-to-upper-case-string";

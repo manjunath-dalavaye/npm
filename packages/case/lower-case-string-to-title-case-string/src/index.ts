@@ -1,1 +1,1 @@
-export * from "./LowerCase/LowerCaseStringToTitleCaseString";
+export * from "./lower-case-string-to-title-case-string";

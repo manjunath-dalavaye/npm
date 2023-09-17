@@ -1,1 +1,1 @@
-export * from "./Hexadecimal/HexadecimalToOctal";
+export * from "./hexadecimal-to-octal";

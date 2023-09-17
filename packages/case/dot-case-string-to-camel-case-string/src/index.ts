@@ -1,1 +1,1 @@
-export * from "./DotCase/DotCaseStringToCamelCaseString";
+export * from "./dot-case-string-to-camel-case-string";

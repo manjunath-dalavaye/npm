@@ -1,1 +1,1 @@
-export * from "./Sort/CountingSort";
+export * from "./counting-sort";

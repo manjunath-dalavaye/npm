@@ -1,1 +1,1 @@
-export * from "./PascalCase/PascalCaseStringToSentenceCaseString";
+export * from "./pascal-case-string-to-sentence-case-string";

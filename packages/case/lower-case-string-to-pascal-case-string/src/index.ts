@@ -1,1 +1,1 @@
-export * from "./LowerCase/LowerCaseStringToPascalCaseString";
+export * from "./lower-case-string-to-pascal-case-string";

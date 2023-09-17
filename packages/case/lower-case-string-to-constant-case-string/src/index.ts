@@ -1,1 +1,1 @@
-export * from "./LowerCase/LowerCaseStringToConstantCaseString";
+export * from "./lower-case-string-to-constant-case-string";

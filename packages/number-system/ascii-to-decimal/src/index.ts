@@ -1,1 +1,1 @@
-export * from "./Ascii/AsciiToDecimal";
+export * from "./ascii-to-decimal";

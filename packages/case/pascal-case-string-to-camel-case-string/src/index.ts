@@ -1,1 +1,1 @@
-export * from "./PascalCase/PascalCaseStringToCamelCaseString";
+export * from "./pascal-case-string-to-camel-case-string";

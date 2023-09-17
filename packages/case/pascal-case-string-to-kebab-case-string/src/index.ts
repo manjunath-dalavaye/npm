@@ -1,1 +1,1 @@
-export * from "./PascalCase/PascalCaseStringToKebabCaseString";
+export * from "./pascal-case-string-to-kebab-case-string";

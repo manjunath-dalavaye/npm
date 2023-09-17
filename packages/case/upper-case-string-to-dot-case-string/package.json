@@ -1,0 +1,71 @@
+{
+  "name": "@ilihub/upper-case-string-to-dot-case-string",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Convert a upper case string to dot case string",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "homepage": "https://code.ilihub.tech",
+  "funding": "https://opencollective.com/ilihub",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilihub/npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilihub/npm/issues",
+    "email": "contact@ilihub.tech"
+  },
+  "author": {
+    "name": "ilihub",
+    "email": "contact@ilihub.tech",
+    "url": "https://github.com/ilihub"
+  },
+  "keywords": [
+    "ilihub",
+    "code",
+    "string",
+    "case",
+    "dotCase",
+    "upperCase",
+    "tools",
+    "typescript",
+    "functions",
+    "utils"
+  ],
+  "tsup": {
+    "treeshake": true,
+    "splitting": true,
+    "entry": [
+      "src/index.ts"
+    ],
+    "format": [
+      "cjs"
+    ],
+    "dts": true,
+    "minify": true,
+    "clean": true
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\"",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "check-types": "tsc --noEmit",
+    "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.5.2",
+    "eslint-config-custom": "workspace:*",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "tsconfig": "workspace:*",
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3"
+  }
+}

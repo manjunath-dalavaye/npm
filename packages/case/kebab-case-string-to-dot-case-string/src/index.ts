@@ -1,1 +1,1 @@
-export * from "./KebabCase/KebabCaseStringToDotCaseString";
+export * from "./kebab-case-string-to-dot-case-string";

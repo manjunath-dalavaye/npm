@@ -1,1 +1,1 @@
-export * from "./Search/BinarySearch";
+export * from "./binary-search";

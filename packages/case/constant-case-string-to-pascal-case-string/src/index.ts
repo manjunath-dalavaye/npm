@@ -1,1 +1,1 @@
-export * from "./ConstantCase/ConstantCaseStringToPascalCaseString";
+export * from "./constant-case-string-to-pascal-case-string";

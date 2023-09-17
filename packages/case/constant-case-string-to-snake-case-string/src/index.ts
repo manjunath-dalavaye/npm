@@ -1,1 +1,1 @@
-export * from "./ConstantCase/ConstantCaseStringToSnakeCaseString";
+export * from "./constant-case-string-to-snake-case-string";

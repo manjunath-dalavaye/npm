@@ -1,1 +1,1 @@
-export * from "./PascalCase/PascalCaseStringToDotCaseString";
+export * from "./pascal-case-string-to-dot-case-string";

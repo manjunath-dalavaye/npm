@@ -1,1 +1,1 @@
-export * from "./Hexadecimal/HexadecimalToBinary";
+export * from "./hexadecimal-to-binary";

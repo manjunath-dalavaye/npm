@@ -1,1 +1,1 @@
-export * from "./CamelCase/CamelCaseStringToKebabCaseString";
+export * from "./camel-case-string-to-kebab-case-string";

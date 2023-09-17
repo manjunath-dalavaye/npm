@@ -1,1 +1,1 @@
-export * from "./ConstantCase/ConstantCaseStringToPathCaseString";
+export * from "./constant-case-string-to-path-case-string";

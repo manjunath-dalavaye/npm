@@ -1,0 +1,8 @@
+import { UpperCaseStringToSentenceCaseString } from "@ilihub/upper-case-string-to-sentence-case-string";
+
+const string = "HELLO WORLD";
+
+console.log(UpperCaseStringToSentenceCaseString(string));
+
+// Output
+// Hello world

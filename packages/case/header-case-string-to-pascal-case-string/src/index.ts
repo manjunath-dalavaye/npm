@@ -1,1 +1,1 @@
-export * from "./HeaderCase/HeaderCaseStringToPascalCaseString";
+export * from "./header-case-string-to-pascal-case-string";

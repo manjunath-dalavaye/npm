@@ -1,1 +1,1 @@
-export * from "./Binary/BinaryToAscii";
+export * from "./binary-to-ascii";

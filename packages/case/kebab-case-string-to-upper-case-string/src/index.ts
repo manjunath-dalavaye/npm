@@ -1,1 +1,1 @@
-export * from "./KebabCase/KebabCaseStringToUpperCaseString";
+export * from "./kebab-case-string-to-upper-case-string";

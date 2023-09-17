@@ -1,6 +1,6 @@
 {
   "name": "@ilihub/lower-case-string-to-path-case-string",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publishConfig": {
     "access": "public"
   },
@@ -38,6 +38,19 @@
     "functions",
     "utils"
   ],
+  "tsup": {
+    "treeshake": true,
+    "splitting": true,
+    "entry": [
+      "src/index.ts"
+    ],
+    "format": [
+      "cjs"
+    ],
+    "dts": true,
+    "minify": true,
+    "clean": true
+  },
   "scripts": {
     "lint": "eslint \"**/*.ts*\"",
     "build": "tsup",
@@ -47,7 +60,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.2",
-    "eslint": "^7.32.0",
+    "@types/node": "^20.5.2",
     "eslint-config-custom": "workspace:*",
     "jest": "^29.5.0",
     "ts-jest": "^29.1.0",

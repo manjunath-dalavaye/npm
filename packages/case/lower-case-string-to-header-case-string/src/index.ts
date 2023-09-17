@@ -1,1 +1,1 @@
-export * from "./LowerCase/LowerCaseStringToHeaderCaseString";
+export * from "./lower-case-string-to-header-case-string.ts";

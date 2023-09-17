@@ -1,1 +1,1 @@
-export * from "./LowerCase/LowerCaseStringToSentenceCaseString";
+export * from "./lower-case-string-to-sentence-case-string";

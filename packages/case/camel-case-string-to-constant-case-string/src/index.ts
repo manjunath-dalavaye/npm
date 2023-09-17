@@ -1,1 +1,1 @@
-export * from "./CamelCase/CamelCaseStringToConstantCaseString";
+export * from "./camel-case-string-to-constant-case-string";

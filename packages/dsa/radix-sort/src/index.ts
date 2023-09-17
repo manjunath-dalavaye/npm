@@ -1,1 +1,1 @@
-export * from "./Sort/RadixSort";
+export * from "./radix-sort";

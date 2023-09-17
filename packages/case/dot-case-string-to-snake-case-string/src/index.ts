@@ -1,1 +1,1 @@
-export * from "./DotCase/DotCaseStringToSnakeCaseString";
+export * from "./dot-case-string-to-snake-case-string";

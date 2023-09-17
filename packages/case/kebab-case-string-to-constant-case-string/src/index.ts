@@ -1,1 +1,1 @@
-export * from "./KebabCase/KebabCaseStringToConstantCaseString";
+export * from "./kebab-case-string-to-constant-case-string";

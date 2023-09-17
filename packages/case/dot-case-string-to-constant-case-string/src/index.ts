@@ -1,1 +1,1 @@
-export * from "./DotCase/DotCaseStringToConstantCaseString";
+export * from "./dot-case-string-to-constant-case-string";

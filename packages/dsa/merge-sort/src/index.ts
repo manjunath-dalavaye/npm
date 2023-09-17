@@ -1,1 +1,1 @@
-export * from "./Sort/MergeSort";
+export * from "./merge-sort";
