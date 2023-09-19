@@ -1,0 +1,24 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "@ilihub/code",
+  "entryPoints": ["./src"],
+  "visibilityFilters": {
+    "protected": true,
+    "private": true,
+    "inherited": true,
+    "external": true
+  },
+  "searchCategoryBoosts": {
+    "Component": 2,
+    "Model": 1.2
+  },
+  "searchGroupBoosts": {
+    "Classes": 1.5
+  },
+  "navigationLinks": {
+    "NPM": "https://www.npmjs.com/package/@ilihub/code",
+    "GitHub": "https://github.com/ilihub/npm",
+    "💝 Support": "https://opencollective.com/ilihub"
+  },
+  "customCss": "./custom-theme/style.css"
+}

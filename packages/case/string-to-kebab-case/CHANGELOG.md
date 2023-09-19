@@ -1,5 +1,11 @@
 # @ilihub/string-to-kebab-case
 
+## 1.0.1
+
+### Patch Changes
+
+- Update README
+
 ## 1.0.0
 
 ### Major Changes

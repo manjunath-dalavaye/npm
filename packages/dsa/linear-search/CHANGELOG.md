@@ -1,5 +1,11 @@
 # @ilihub/linear-search
 
+## 1.0.4
+
+### Patch Changes
+
+- Update README
+
 ## 1.0.3
 
 ### Patch Changes

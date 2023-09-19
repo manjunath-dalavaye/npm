@@ -1,5 +1,13 @@
 # ilihub
 
+## 1.0.4
+
+### Patch Changes
+
+- Update README
+- Updated dependencies
+  - @ilihub/code@1.0.13
+
 ## 1.0.3
 
 ### Patch Changes
