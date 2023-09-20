@@ -3,7 +3,10 @@ name: Update Sponsors Section
 on:
   workflow_dispatch:
   push:
+    branches:
+      - master
   pull_request:
+    types: [opened, synchronize]
 
 jobs:
   update_sponsors:
