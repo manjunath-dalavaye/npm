@@ -1,5 +1,23 @@
 # @ilihub/code
 
+## 1.1.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @ilihub/number-system@1.0.5
+
+## 1.1.0
+
+### Minor Changes
+
+- Add @ilihub/cryptography
+
+### Patch Changes
+
+- Updated dependencies
+  - @ilihub/cryptography@1.0.0
+
 ## 1.0.13
 
 ### Patch Changes

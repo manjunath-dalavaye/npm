@@ -20,6 +20,7 @@ This repository contains the source code of the following npm packages and their
 | :------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------- |
 | [![ilihub/code][ilihub_code_npm_img]][ilihub_code_npm_url]                            | A collection of useful TypeScript functions.                                                  |
 | [![ilihub/case][ilihub_case_npm_img]][ilihub_case_npm_url]                            | A collection of useful TypeScript functions to convert strings between different cases.       |
+| [![ilihub/cryptography][ilihub_cryptography_npm_img]][ilihub_cryptography_npm_url]    | A collection of useful TypeScript functions to perform cryptographic operations.              |
 | [![ilihub/dsa][ilihub_dsa_npm_img]][ilihub_dsa_npm_url]                               | A collection of useful TypeScript functions and utilities for data structures and algorithms. |
 | [![ilihub/number-system][ilihub_number_system_npm_img]][ilihub_number_system_npm_url] | A collection of useful TypeScript functions to perform number system conversions.             |
 
@@ -179,6 +180,8 @@ The core of ilihub is our crowd-funded open-source projects, licensed under the 
 [ilihub_code_npm_url]: https://www.npmjs.com/package/@ilihub/code
 [ilihub_case_npm_img]: https://img.shields.io/badge/%40ilihub/-case-blue?logo=npm
 [ilihub_case_npm_url]: https://www.npmjs.com/package/@ilihub/case
+[ilihub_cryptography_npm_img]: https://img.shields.io/badge/%40ilihub/-cryptography-blue?logo=npm
+[ilihub_cryptography_npm_url]: https://www.npmjs.com/package/@ilihub/cryptography
 [ilihub_dsa_npm_img]: https://img.shields.io/badge/%40ilihub/-dsa-blue?logo=npm
 [ilihub_dsa_npm_url]: https://www.npmjs.com/package/@ilihub/dsa
 [ilihub_number_system_npm_img]: https://img.shields.io/badge/%40ilihub/-number%20system-blue?logo=npm

@@ -1,6 +1,6 @@
 {
   "name": "@ilihub/code",
-  "version": "1.0.13",
+  "version": "1.1.1",
   "publishConfig": {
     "access": "public"
   },
@@ -54,6 +54,7 @@
   },
   "dependencies": {
     "@ilihub/case": "workspace:*",
+    "@ilihub/cryptography": "workspace:*",
     "@ilihub/dsa": "workspace:*",
     "@ilihub/number-system": "workspace:*"
   },

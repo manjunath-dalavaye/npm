@@ -929,6 +929,24 @@ importers:
         specifier: workspace:*
         version: link:../../packages/code
 
+  examples/cryptography/cipher/caesar-cipher-example:
+    devDependencies:
+      '@ilihub/caesar-cipher':
+        specifier: workspace:*
+        version: link:../../../../packages/cryptography/cipher/caesar-cipher
+
+  examples/cryptography/cipher/cipher-examples:
+    devDependencies:
+      '@ilihub/cipher':
+        specifier: workspace:*
+        version: link:../../../../packages/cryptography/cipher/cipher
+
+  examples/cryptography/cryptography-examples:
+    devDependencies:
+      '@ilihub/cryptography':
+        specifier: workspace:*
+        version: link:../../../packages/cryptography/cryptography
+
   examples/dsa/dsa-examples:
     devDependencies:
       '@ilihub/dsa':
@@ -5504,6 +5522,9 @@ importers:
       '@ilihub/case':
         specifier: workspace:*
         version: link:../case/case
+      '@ilihub/cryptography':
+        specifier: workspace:*
+        version: link:../cryptography/cryptography
       '@ilihub/dsa':
         specifier: workspace:*
         version: link:../dsa/dsa
@@ -5529,6 +5550,95 @@ importers:
       tsconfig:
         specifier: workspace:*
         version: link:../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/cryptography/cipher/caesar-cipher:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/cryptography/cipher/cipher:
+    dependencies:
+      '@ilihub/caesar-cipher':
+        specifier: workspace:*
+        version: link:../caesar-cipher
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/cryptography/cryptography:
+    dependencies:
+      '@ilihub/cipher':
+        specifier: workspace:*
+        version: link:../cipher/cipher
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)

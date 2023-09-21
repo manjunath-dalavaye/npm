@@ -1,5 +1,16 @@
 # @ilihub/number-system
 
+## 1.0.5
+
+### Patch Changes
+
+- Updated dependencies
+  - @ilihub/hexadecimal@1.0.0
+  - @ilihub/decimal@1.0.0
+  - @ilihub/binary@1.0.0
+  - @ilihub/ascii@1.0.0
+  - @ilihub/octal@1.0.0
+
 ## 1.0.4
 
 ### Patch Changes

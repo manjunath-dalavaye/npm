@@ -37,6 +37,7 @@ console.log(result); // 4
 You can also install and use individual subpackages:
 
 - [@ilihub/case](https://www.npmjs.com/package/@ilihub/case)
+- [@ilihub/cryptography](https://www.npmjs.com/package/@ilihub/cryptography)
 - [@ilihub/dsa](https://www.npmjs.com/package/@ilihub/dsa)
 - [@ilihub/number-system](https://www.npmjs.com/package/@ilihub/number-system)
 
