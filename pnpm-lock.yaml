@@ -995,6 +995,12 @@ importers:
         specifier: workspace:*
         version: link:../../../../packages/dsa/sort/selection-sort
 
+  examples/number-system/ascii/ascii-example:
+    devDependencies:
+      '@ilihub/ascii':
+        specifier: workspace:*
+        version: link:../../../../packages/number-system/ascii/ascii
+
   examples/number-system/ascii/ascii-to-binary-example:
     devDependencies:
       '@ilihub/ascii-to-binary':
@@ -1018,6 +1024,12 @@ importers:
       '@ilihub/ascii-to-octal':
         specifier: workspace:*
         version: link:../../../../packages/number-system/ascii/ascii-to-octal
+
+  examples/number-system/binary/binary-example:
+    devDependencies:
+      '@ilihub/binary':
+        specifier: workspace:*
+        version: link:../../../../packages/number-system/binary/binary
 
   examples/number-system/binary/binary-to-ascii-example:
     devDependencies:
@@ -1043,6 +1055,12 @@ importers:
         specifier: workspace:*
         version: link:../../../../packages/number-system/binary/binary-to-octal
 
+  examples/number-system/decimal/decimal-example:
+    devDependencies:
+      '@ilihub/decimal':
+        specifier: workspace:*
+        version: link:../../../../packages/number-system/decimal/decimal
+
   examples/number-system/decimal/decimal-to-ascii-example:
     devDependencies:
       '@ilihub/decimal-to-ascii':
@@ -1066,6 +1084,12 @@ importers:
       '@ilihub/decimal-to-octal':
         specifier: workspace:*
         version: link:../../../../packages/number-system/decimal/decimal-to-octal
+
+  examples/number-system/hexadecimal/hexadecimal-example:
+    devDependencies:
+      '@ilihub/hexadecimal':
+        specifier: workspace:*
+        version: link:../../../../packages/number-system/hexadecimal/hexadecimal
 
   examples/number-system/hexadecimal/hexadecimal-to-ascii-example:
     devDependencies:
@@ -1096,6 +1120,12 @@ importers:
       '@ilihub/number-system':
         specifier: workspace:*
         version: link:../../../packages/number-system/number-system
+
+  examples/number-system/octal/octal-example:
+    devDependencies:
+      '@ilihub/octal':
+        specifier: workspace:*
+        version: link:../../../../packages/number-system/octal/octal
 
   examples/number-system/octal/octal-to-ascii-example:
     devDependencies:
@@ -5865,6 +5895,46 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
+  packages/number-system/ascii/ascii:
+    dependencies:
+      '@ilihub/ascii-to-binary':
+        specifier: workspace:*
+        version: link:../ascii-to-binary
+      '@ilihub/ascii-to-decimal':
+        specifier: workspace:*
+        version: link:../ascii-to-decimal
+      '@ilihub/ascii-to-hexadecimal':
+        specifier: workspace:*
+        version: link:../ascii-to-hexadecimal
+      '@ilihub/ascii-to-octal':
+        specifier: workspace:*
+        version: link:../ascii-to-octal
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
   packages/number-system/ascii/ascii-to-binary:
     devDependencies:
       '@types/jest':
@@ -5947,6 +6017,46 @@ importers:
         version: 5.2.2
 
   packages/number-system/ascii/ascii-to-octal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/number-system/binary/binary:
+    dependencies:
+      '@ilihub/binary-to-ascii':
+        specifier: workspace:*
+        version: link:../binary-to-ascii
+      '@ilihub/binary-to-decimal':
+        specifier: workspace:*
+        version: link:../binary-to-decimal
+      '@ilihub/binary-to-hexadecimal':
+        specifier: workspace:*
+        version: link:../binary-to-hexadecimal
+      '@ilihub/binary-to-octal':
+        specifier: workspace:*
+        version: link:../binary-to-octal
     devDependencies:
       '@types/jest':
         specifier: ^29.5.5
@@ -6081,6 +6191,46 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
+  packages/number-system/decimal/decimal:
+    dependencies:
+      '@ilihub/decimal-to-ascii':
+        specifier: workspace:*
+        version: link:../decimal-to-ascii
+      '@ilihub/decimal-to-binary':
+        specifier: workspace:*
+        version: link:../decimal-to-binary
+      '@ilihub/decimal-to-hexadecimal':
+        specifier: workspace:*
+        version: link:../decimal-to-hexadecimal
+      '@ilihub/decimal-to-octal':
+        specifier: workspace:*
+        version: link:../decimal-to-octal
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
   packages/number-system/decimal/decimal-to-ascii:
     devDependencies:
       '@types/jest':
@@ -6163,6 +6313,46 @@ importers:
         version: 5.2.2
 
   packages/number-system/decimal/decimal-to-octal:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/number-system/hexadecimal/hexadecimal:
+    dependencies:
+      '@ilihub/hexadecimal-to-ascii':
+        specifier: workspace:*
+        version: link:../hexadecimal-to-ascii
+      '@ilihub/hexadecimal-to-binary':
+        specifier: workspace:*
+        version: link:../hexadecimal-to-binary
+      '@ilihub/hexadecimal-to-decimal':
+        specifier: workspace:*
+        version: link:../hexadecimal-to-decimal
+      '@ilihub/hexadecimal-to-octal':
+        specifier: workspace:*
+        version: link:../hexadecimal-to-octal
     devDependencies:
       '@types/jest':
         specifier: ^29.5.5
@@ -6299,6 +6489,9 @@ importers:
 
   packages/number-system/number-system:
     dependencies:
+      '@ilihub/ascii':
+        specifier: workspace:*
+        version: link:../ascii/ascii
       '@ilihub/ascii-to-binary':
         specifier: workspace:*
         version: link:../ascii/ascii-to-binary
@@ -6311,6 +6504,9 @@ importers:
       '@ilihub/ascii-to-octal':
         specifier: workspace:*
         version: link:../ascii/ascii-to-octal
+      '@ilihub/binary':
+        specifier: workspace:*
+        version: link:../binary/binary
       '@ilihub/binary-to-ascii':
         specifier: workspace:*
         version: link:../binary/binary-to-ascii
@@ -6323,6 +6519,9 @@ importers:
       '@ilihub/binary-to-octal':
         specifier: workspace:*
         version: link:../binary/binary-to-octal
+      '@ilihub/decimal':
+        specifier: workspace:*
+        version: link:../decimal/decimal
       '@ilihub/decimal-to-ascii':
         specifier: workspace:*
         version: link:../decimal/decimal-to-ascii
@@ -6335,6 +6534,9 @@ importers:
       '@ilihub/decimal-to-octal':
         specifier: workspace:*
         version: link:../decimal/decimal-to-octal
+      '@ilihub/hexadecimal':
+        specifier: workspace:*
+        version: link:../hexadecimal/hexadecimal
       '@ilihub/hexadecimal-to-ascii':
         specifier: workspace:*
         version: link:../hexadecimal/hexadecimal-to-ascii
@@ -6347,6 +6549,9 @@ importers:
       '@ilihub/hexadecimal-to-octal':
         specifier: workspace:*
         version: link:../hexadecimal/hexadecimal-to-octal
+      '@ilihub/octal':
+        specifier: workspace:*
+        version: link:../octal/octal
       '@ilihub/octal-to-ascii':
         specifier: workspace:*
         version: link:../octal/octal-to-ascii
@@ -6378,6 +6583,46 @@ importers:
       tsconfig:
         specifier: workspace:*
         version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/number-system/octal/octal:
+    dependencies:
+      '@ilihub/octal-to-ascii':
+        specifier: workspace:*
+        version: link:../octal-to-ascii
+      '@ilihub/octal-to-binary':
+        specifier: workspace:*
+        version: link:../octal-to-binary
+      '@ilihub/octal-to-decimal':
+        specifier: workspace:*
+        version: link:../octal-to-decimal
+      '@ilihub/octal-to-hexadecimal':
+        specifier: workspace:*
+        version: link:../octal-to-hexadecimal
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../configs/tsconfig
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)

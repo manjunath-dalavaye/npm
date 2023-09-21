@@ -38,26 +38,31 @@ console.log(binary);
 ## Available Functions
 
 - Ascii
+  - [Ascii](https://www.npmjs.com/package/@ilihub/ascii)
   - [Ascii To Binary](https://www.npmjs.com/package/@ilihub/ascii-to-binary)
   - [Ascii To Decimal](https://www.npmjs.com/package/@ilihub/ascii-to-decimal)
   - [Ascii To Hexadecimal](https://www.npmjs.com/package/@ilihub/ascii-to-hexadecimal)
   - [Ascii To Octal](https://www.npmjs.com/package/@ilihub/ascii-to-octal)
 - Binary
+  - [Binary](https://www.npmjs.com/package/@ilihub/binary)
   - [Binary To Ascii](https://www.npmjs.com/package/@ilihub/binary-to-ascii)
   - [Binary To Decimal](https://www.npmjs.com/package/@ilihub/binary-to-decimal)
   - [Binary To Hexadecimal](https://www.npmjs.com/package/@ilihub/binary-to-hexadecimal)
   - [Binary To Octal](https://www.npmjs.com/package/@ilihub/binary-to-octal)
 - Decimal
+  - [Decimal](https://www.npmjs.com/package/@ilihub/decimal)
   - [Decimal To Ascii](https://www.npmjs.com/package/@ilihub/decimal-to-ascii)
   - [Decimal To Binary](https://www.npmjs.com/package/@ilihub/decimal-to-binary)
   - [Decimal To Hexadecimal](https://www.npmjs.com/package/@ilihub/decimal-to-hexadecimal)
   - [Decimal To Octal](https://www.npmjs.com/package/@ilihub/decimal-to-octal)
 - Hexadecimal
+  - [Hexadecimal](https://www.npmjs.com/package/@ilihub/hexadecimal)
   - [Hexadecimal To Ascii](https://www.npmjs.com/package/@ilihub/hexadecimal-to-ascii)
   - [Hexadecimal To Binary](https://www.npmjs.com/package/@ilihub/hexadecimal-to-binary)
   - [Hexadecimal To Decimal](https://www.npmjs.com/package/@ilihub/hexadecimal-to-decimal)
   - [Hexadecimal To Octal](https://www.npmjs.com/package/@ilihub/hexadecimal-to-octal)
 - Octal
+  - [Octal](https://www.npmjs.com/package/@ilihub/octal)
   - [Octal To Ascii](https://www.npmjs.com/package/@ilihub/octal-to-ascii)
   - [Octal To Binary](https://www.npmjs.com/package/@ilihub/octal-to-binary)
   - [Octal To Decimal](https://www.npmjs.com/package/@ilihub/octal-to-decimal)
