@@ -1013,6 +1013,168 @@ importers:
         specifier: workspace:*
         version: link:../../../../packages/dsa/sort/selection-sort
 
+  examples/math/geometry/geometry-examples:
+    devDependencies:
+      '@ilihub/geometry':
+        specifier: workspace:*
+        version: link:../../../../packages/math/geometry/geometry
+
+  examples/math/geometry/shape/circle/area-of-circle-example:
+    devDependencies:
+      '@ilihub/area-of-circle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/circle/area-of-circle
+
+  examples/math/geometry/shape/circle/circle-example:
+    devDependencies:
+      '@ilihub/circle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/circle/circle
+
+  examples/math/geometry/shape/circle/circle-examples:
+    devDependencies:
+      '@ilihub/circle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/circle/circle
+
+  examples/math/geometry/shape/circle/circumference-of-circle-example:
+    devDependencies:
+      '@ilihub/circumference-of-circle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/circle/circumference-of-circle
+
+  examples/math/geometry/shape/semi-circle/area-of-semi-circle-example:
+    devDependencies:
+      '@ilihub/area-of-semi-circle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/semi-circle/area-of-semi-circle
+
+  examples/math/geometry/shape/semi-circle/perimeter-of-semi-circle-example:
+    devDependencies:
+      '@ilihub/perimeter-of-semi-circle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/semi-circle/perimeter-of-semi-circle
+
+  examples/math/geometry/shape/semi-circle/semi-circle-example:
+    devDependencies:
+      '@ilihub/semi-circle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/semi-circle/semi-circle
+
+  examples/math/geometry/shape/semi-circle/semi-circle-examples:
+    devDependencies:
+      '@ilihub/semi-circle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/semi-circle/semi-circle
+
+  examples/math/geometry/shape/shape-examples:
+    devDependencies:
+      '@ilihub/shape':
+        specifier: workspace:*
+        version: link:../../../../../packages/math/geometry/shape/shape
+
+  examples/math/geometry/shape/triangle/equilateral-triangle/area-of-equilateral-triangle-example:
+    devDependencies:
+      '@ilihub/area-of-equilateral-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/equilateral-triangle/area-of-equilateral-triangle
+
+  examples/math/geometry/shape/triangle/equilateral-triangle/equilateral-triangle-example:
+    devDependencies:
+      '@ilihub/equilateral-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/equilateral-triangle/equilateral-triangle
+
+  examples/math/geometry/shape/triangle/equilateral-triangle/perimeter-of-equilateral-triangle-example:
+    devDependencies:
+      '@ilihub/perimeter-of-equilateral-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/equilateral-triangle/perimeter-of-equilateral-triangle
+
+  examples/math/geometry/shape/triangle/isosceles-triangle/area-of-isosceles-triangle-example:
+    devDependencies:
+      '@ilihub/area-of-isosceles-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/isosceles-triangle/area-of-isosceles-triangle
+
+  examples/math/geometry/shape/triangle/isosceles-triangle/isosceles-triangle-example:
+    devDependencies:
+      '@ilihub/isosceles-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/isosceles-triangle/isosceles-triangle
+
+  examples/math/geometry/shape/triangle/isosceles-triangle/perimeter-of-isosceles-triangle-example:
+    devDependencies:
+      '@ilihub/perimeter-of-isosceles-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/isosceles-triangle/perimeter-of-isosceles-triangle
+
+  examples/math/geometry/shape/triangle/right-triangle/area-of-right-triangle-example:
+    devDependencies:
+      '@ilihub/area-of-right-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/right-triangle/area-of-right-triangle
+
+  examples/math/geometry/shape/triangle/right-triangle/perimeter-of-right-triangle-example:
+    devDependencies:
+      '@ilihub/perimeter-of-right-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/right-triangle/perimeter-of-right-triangle
+
+  examples/math/geometry/shape/triangle/right-triangle/right-triangle-example:
+    devDependencies:
+      '@ilihub/right-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/right-triangle/right-triangle
+
+  examples/math/geometry/shape/triangle/scalene-triangle/area-of-scalene-triangle-example:
+    devDependencies:
+      '@ilihub/area-of-scalene-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/scalene-triangle/area-of-scalene-triangle
+
+  examples/math/geometry/shape/triangle/scalene-triangle/perimeter-of-scalene-triangle-example:
+    devDependencies:
+      '@ilihub/perimeter-of-scalene-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/scalene-triangle/perimeter-of-scalene-triangle
+
+  examples/math/geometry/shape/triangle/scalene-triangle/scalene-triangle-example:
+    devDependencies:
+      '@ilihub/scalene-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/scalene-triangle/scalene-triangle
+
+  examples/math/geometry/shape/triangle/triangle-examples:
+    devDependencies:
+      '@ilihub/triangle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/triangle/triangle/triangle
+
+  examples/math/geometry/shape/triangle/triangle/area-of-triangle-example:
+    devDependencies:
+      '@ilihub/area-of-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/triangle/area-of-triangle
+
+  examples/math/geometry/shape/triangle/triangle/perimeter-of-triangle-example:
+    devDependencies:
+      '@ilihub/perimeter-of-triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/triangle/perimeter-of-triangle
+
+  examples/math/geometry/shape/triangle/triangle/triangle-example:
+    devDependencies:
+      '@ilihub/triangle':
+        specifier: workspace:*
+        version: link:../../../../../../../packages/math/geometry/shape/triangle/triangle/triangle
+
+  examples/math/math-examples:
+    devDependencies:
+      '@ilihub/math':
+        specifier: workspace:*
+        version: link:../../../packages/math/math
+
   examples/number-system/ascii/ascii-example:
     devDependencies:
       '@ilihub/ascii':
@@ -5528,6 +5690,9 @@ importers:
       '@ilihub/dsa':
         specifier: workspace:*
         version: link:../dsa/dsa
+      '@ilihub/math':
+        specifier: workspace:*
+        version: link:../math/math
       '@ilihub/number-system':
         specifier: workspace:*
         version: link:../number-system/number-system
@@ -5998,6 +6163,765 @@ importers:
       tsconfig:
         specifier: workspace:*
         version: link:../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/geometry:
+    dependencies:
+      '@ilihub/shape':
+        specifier: workspace:*
+        version: link:../shape/shape
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/circle/area-of-circle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/circle/circle:
+    dependencies:
+      '@ilihub/area-of-circle':
+        specifier: workspace:*
+        version: link:../area-of-circle
+      '@ilihub/circumference-of-circle':
+        specifier: workspace:*
+        version: link:../circumference-of-circle
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/circle/circumference-of-circle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/semi-circle/area-of-semi-circle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/semi-circle/perimeter-of-semi-circle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/semi-circle/semi-circle:
+    dependencies:
+      '@ilihub/area-of-semi-circle':
+        specifier: workspace:*
+        version: link:../area-of-semi-circle
+      '@ilihub/perimeter-of-semi-circle':
+        specifier: workspace:*
+        version: link:../perimeter-of-semi-circle
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/shape:
+    dependencies:
+      '@ilihub/circle':
+        specifier: workspace:*
+        version: link:../circle/circle
+      '@ilihub/semi-circle':
+        specifier: workspace:*
+        version: link:../semi-circle/semi-circle
+      '@ilihub/triangle':
+        specifier: workspace:*
+        version: link:../triangle/triangle/triangle
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/equilateral-triangle/area-of-equilateral-triangle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/equilateral-triangle/equilateral-triangle:
+    dependencies:
+      '@ilihub/area-of-equilateral-triangle':
+        specifier: workspace:*
+        version: link:../area-of-equilateral-triangle
+      '@ilihub/perimeter-of-equilateral-triangle':
+        specifier: workspace:*
+        version: link:../perimeter-of-equilateral-triangle
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/equilateral-triangle/perimeter-of-equilateral-triangle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/isosceles-triangle/area-of-isosceles-triangle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/isosceles-triangle/isosceles-triangle:
+    dependencies:
+      '@ilihub/area-of-isosceles-triangle':
+        specifier: workspace:*
+        version: link:../area-of-isosceles-triangle
+      '@ilihub/perimeter-of-isosceles-triangle':
+        specifier: workspace:*
+        version: link:../perimeter-of-isosceles-triangle
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/isosceles-triangle/perimeter-of-isosceles-triangle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/right-triangle/area-of-right-triangle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/right-triangle/perimeter-of-right-triangle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/right-triangle/right-triangle:
+    dependencies:
+      '@ilihub/area-of-right-triangle':
+        specifier: workspace:*
+        version: link:../area-of-right-triangle
+      '@ilihub/perimeter-of-right-triangle':
+        specifier: workspace:*
+        version: link:../perimeter-of-right-triangle
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/scalene-triangle/area-of-scalene-triangle:
+    dependencies:
+      '@ilihub/area-of-triangle':
+        specifier: workspace:*
+        version: link:../../triangle/area-of-triangle
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/scalene-triangle/perimeter-of-scalene-triangle:
+    dependencies:
+      '@ilihub/perimeter-of-triangle':
+        specifier: workspace:*
+        version: link:../../triangle/perimeter-of-triangle
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/scalene-triangle/scalene-triangle:
+    dependencies:
+      '@ilihub/area-of-scalene-triangle':
+        specifier: workspace:*
+        version: link:../area-of-scalene-triangle
+      '@ilihub/perimeter-of-scalene-triangle':
+        specifier: workspace:*
+        version: link:../perimeter-of-scalene-triangle
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/triangle/area-of-triangle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/triangle/perimeter-of-triangle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/triangle/triangle/triangle:
+    dependencies:
+      '@ilihub/area-of-equilateral-triangle':
+        specifier: workspace:*
+        version: link:../../equilateral-triangle/area-of-equilateral-triangle
+      '@ilihub/area-of-isosceles-triangle':
+        specifier: workspace:*
+        version: link:../../isosceles-triangle/area-of-isosceles-triangle
+      '@ilihub/area-of-right-triangle':
+        specifier: workspace:*
+        version: link:../../right-triangle/area-of-right-triangle
+      '@ilihub/area-of-scalene-triangle':
+        specifier: workspace:*
+        version: link:../../scalene-triangle/area-of-scalene-triangle
+      '@ilihub/area-of-triangle':
+        specifier: workspace:*
+        version: link:../area-of-triangle
+      '@ilihub/equilateral-triangle':
+        specifier: workspace:*
+        version: link:../../equilateral-triangle/equilateral-triangle
+      '@ilihub/isosceles-triangle':
+        specifier: workspace:*
+        version: link:../../isosceles-triangle/isosceles-triangle
+      '@ilihub/perimeter-of-equilateral-triangle':
+        specifier: workspace:*
+        version: link:../../equilateral-triangle/perimeter-of-equilateral-triangle
+      '@ilihub/perimeter-of-isosceles-triangle':
+        specifier: workspace:*
+        version: link:../../isosceles-triangle/perimeter-of-isosceles-triangle
+      '@ilihub/perimeter-of-right-triangle':
+        specifier: workspace:*
+        version: link:../../right-triangle/perimeter-of-right-triangle
+      '@ilihub/perimeter-of-scalene-triangle':
+        specifier: workspace:*
+        version: link:../../scalene-triangle/perimeter-of-scalene-triangle
+      '@ilihub/perimeter-of-triangle':
+        specifier: workspace:*
+        version: link:../perimeter-of-triangle
+      '@ilihub/right-triangle':
+        specifier: workspace:*
+        version: link:../../right-triangle/right-triangle
+      '@ilihub/scalene-triangle':
+        specifier: workspace:*
+        version: link:../../scalene-triangle/scalene-triangle
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/math:
+    dependencies:
+      '@ilihub/geometry':
+        specifier: workspace:*
+        version: link:../geometry/geometry
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.2
+        version: 20.6.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.6.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../configs/tsconfig
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)

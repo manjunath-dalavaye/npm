@@ -30,7 +30,7 @@ const string = "helloWorld";
 console.log(CamelCaseStringToPascalCaseString(string));
 ```
 
-## Available Functions
+## Available Functions and Classes
 
 - Camel Case String
   - [Camel Case String To Constant Case String](https://www.npmjs.com/package/@ilihub/camel-case-string-to-constant-case-string)

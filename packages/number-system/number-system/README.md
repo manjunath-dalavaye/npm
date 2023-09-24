@@ -35,7 +35,7 @@ console.log(binary);
 // 0000 0101 0111 0110 1111 0111 0010 0110 1100 0110 0100
 ```
 
-## Available Functions
+## Available Functions and Classes
 
 - Ascii
   - [Ascii](https://www.npmjs.com/package/@ilihub/ascii)

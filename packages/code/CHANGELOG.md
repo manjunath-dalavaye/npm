@@ -1,5 +1,28 @@
 # @ilihub/code
 
+## 1.2.2
+
+### Patch Changes
+
+- @ilihub/math@1.0.2
+
+## 1.2.1
+
+### Patch Changes
+
+- @ilihub/math@1.0.1
+
+## 1.2.0
+
+### Minor Changes
+
+- Add @ilihub/math
+
+### Patch Changes
+
+- Updated dependencies
+  - @ilihub/math@1.0.0
+
 ## 1.1.1
 
 ### Patch Changes

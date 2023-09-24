@@ -37,7 +37,7 @@ const alldecrypted = caesarCipher.decryptAll(encrypted);
 console.log(alldecrypted); // [ 'Hello World', 'Gdkkn Vnqkc', ... ]
 ```
 
-## Available Functions
+## Available Functions and Classes
 
 - Cipher
   - [Caesar Cipher](https://www.npmjs.com/package/@ilihub/caesar-cipher)

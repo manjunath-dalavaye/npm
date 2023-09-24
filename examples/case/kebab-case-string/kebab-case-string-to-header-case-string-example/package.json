@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "for file in *.js; do val=$(node $file); echo \"$file ==> $val\"; done"
+    "test": "find . -type f -name \"*.js\" -not -path \"./node_modules/*\" -exec sh -c 'val=$(node \"{}\"); echo \"{} ==> $val\"' \\;"
   },
   "devDependencies": {
     "@ilihub/kebab-case-string-to-header-case-string": "workspace:*"

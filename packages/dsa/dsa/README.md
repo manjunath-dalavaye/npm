@@ -32,7 +32,7 @@ const result = BinarySearch(arr, 5);
 console.log(result); // 4
 ```
 
-## Available Functions
+## Available Functions and Classes
 
 - Search
   - [Binary search](https://www.npmjs.com/package/@ilihub/binary-search)
