@@ -2,11 +2,12 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # Colors
-RED=$(tput setaf 1)
-GREEN=$(tput setaf 2)
-YELLOW=$(tput setaf 3)
-BLUE=$(tput setaf 6)
-NC=$(tput sgr0)
+export TERM=xterm
+RED=$(tput -T xterm setaf 1)
+GREEN=$(tput -T xterm setaf 2)
+YELLOW=$(tput -T xterm setaf 3)
+BLUE=$(tput -T xterm setaf 6)
+NC=$(tput -T xterm sgr0)
 
 # Actors
 CC="ilihub"
