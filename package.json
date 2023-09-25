@@ -1,6 +1,8 @@
 {
   "private": true,
   "scripts": {
+    "git-fetch-prune-verbose": "git fetch --prune --verbose",
+    "git-delete-merged-branches": "git branch | grep -v \"master\" | xargs git branch -D",
     "clean": "turbo clean",
     "dev": "turbo run dev",
     "lint": "turbo run lint",

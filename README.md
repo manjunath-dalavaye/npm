@@ -22,6 +22,7 @@ This repository contains the source code of the following npm packages and their
 | [![ilihub/case][ilihub_case_npm_img]][ilihub_case_npm_url]                            | A collection of useful TypeScript functions to convert strings between different cases.       |
 | [![ilihub/cryptography][ilihub_cryptography_npm_img]][ilihub_cryptography_npm_url]    | A collection of useful TypeScript functions to perform cryptographic operations.              |
 | [![ilihub/dsa][ilihub_dsa_npm_img]][ilihub_dsa_npm_url]                               | A collection of useful TypeScript functions and utilities for data structures and algorithms. |
+| [![ilihub/math][ilihub_math_npm_img]][ilihub_math_npm_url]                            | A collection of useful TypeScript functions to perform mathematical operations.               |
 | [![ilihub/number-system][ilihub_number_system_npm_img]][ilihub_number_system_npm_url] | A collection of useful TypeScript functions to perform number system conversions.             |
 
 ---
@@ -184,6 +185,8 @@ The core of ilihub is our crowd-funded open-source projects, licensed under the 
 [ilihub_cryptography_npm_url]: https://www.npmjs.com/package/@ilihub/cryptography
 [ilihub_dsa_npm_img]: https://img.shields.io/badge/%40ilihub/-dsa-blue?logo=npm
 [ilihub_dsa_npm_url]: https://www.npmjs.com/package/@ilihub/dsa
+[ilihub_math_npm_img]: https://img.shields.io/badge/%40ilihub/-math-blue?logo=npm
+[ilihub_math_npm_url]: https://www.npmjs.com/package/@ilihub/math
 [ilihub_number_system_npm_img]: https://img.shields.io/badge/%40ilihub/-number%20system-blue?logo=npm
 [ilihub_number_system_npm_url]: https://www.npmjs.com/package/@ilihub/number-system
 [finding_ways_to_contribute_to_open_source_on_github]: https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github "Finding ways to contribute to open source on GitHub"
