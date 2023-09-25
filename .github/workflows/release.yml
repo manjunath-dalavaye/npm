@@ -1,4 +1,4 @@
-name: Changeset
+name: Release
 
 on:
   push:
@@ -8,31 +8,32 @@ on:
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  changeset:
-    name: Changeset
+  release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
-      - name: Check out code
+      - name: Checkout Repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - uses: pnpm/action-setup@v2
+      - name: Setup pnpm 8
+        uses: pnpm/action-setup@v2
         with:
           version: 8
 
-      - name: Setup Node.js environment
+      - name: Setup Node.js 18
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: "pnpm"
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: pnpm install
 
-      - name: Create Changeset Pull Request
+      - name: Create Release Pull Request or Publish to npm
+        id: changesets
         uses: changesets/action@v1
         with:
-          version: pnpm changeset version
+          publish: pnpm publish-packages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
