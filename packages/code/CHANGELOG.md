@@ -1,5 +1,12 @@
 # @ilihub/code
 
+## 1.2.3
+
+### Patch Changes
+
+- Updated dependencies [55687aa]
+  - @ilihub/math@1.0.3
+
 ## 1.2.2
 
 ### Patch Changes
