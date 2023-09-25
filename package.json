@@ -8,7 +8,7 @@
     "test": "turbo run test",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,mdx,json}\"",
     "all": "turbo lint && pnpm build && pnpm test && pnpm format",
-    "version-packages": "pnpm changeset version && pnpm all",
+    "version-packages": "pnpm changeset version && pnpm lint && pnpm build && pnpm test",
     "publish-packages": "pnpm all && changeset version && changeset publish",
     "prepare": "husky install"
   },
