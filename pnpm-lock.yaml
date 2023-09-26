@@ -1043,6 +1043,30 @@ importers:
         specifier: workspace:*
         version: link:../../../../../../packages/math/geometry/shape/circle/circumference-of-circle
 
+  examples/math/geometry/shape/rectangle/area-of-rectangle-example:
+    devDependencies:
+      '@ilihub/area-of-rectangle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/rectangle/area-of-rectangle
+
+  examples/math/geometry/shape/rectangle/perimeter-of-rectangle-example:
+    devDependencies:
+      '@ilihub/perimeter-of-rectangle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/rectangle/perimeter-of-rectangle
+
+  examples/math/geometry/shape/rectangle/rectangle-example:
+    devDependencies:
+      '@ilihub/rectangle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/rectangle/rectangle
+
+  examples/math/geometry/shape/rectangle/rectangle-examples:
+    devDependencies:
+      '@ilihub/rectangle':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/rectangle/rectangle
+
   examples/math/geometry/shape/semi-circle/area-of-semi-circle-example:
     devDependencies:
       '@ilihub/area-of-semi-circle':
@@ -6313,6 +6337,94 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
+  packages/math/geometry/shape/rectangle/area-of-rectangle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.7.0
+        version: 20.7.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.7.0)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/rectangle/perimeter-of-rectangle:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.7.0
+        version: 20.7.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.7.0)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/rectangle/rectangle:
+    dependencies:
+      '@ilihub/area-of-rectangle':
+        specifier: workspace:*
+        version: link:../area-of-rectangle
+      '@ilihub/perimeter-of-rectangle':
+        specifier: workspace:*
+        version: link:../perimeter-of-rectangle
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.7.0
+        version: 20.7.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.7.0)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
   packages/math/geometry/shape/semi-circle/area-of-semi-circle:
     devDependencies:
       '@types/jest':
@@ -6406,6 +6518,9 @@ importers:
       '@ilihub/circle':
         specifier: workspace:*
         version: link:../circle/circle
+      '@ilihub/rectangle':
+        specifier: workspace:*
+        version: link:../rectangle/rectangle
       '@ilihub/semi-circle':
         specifier: workspace:*
         version: link:../semi-circle/semi-circle
