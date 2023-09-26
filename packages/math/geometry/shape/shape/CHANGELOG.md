@@ -1,5 +1,16 @@
 # @ilihub/shape
 
+## 1.0.4
+
+### Patch Changes
+
+- Updated dependencies [784ad7c]
+- Updated dependencies [26d2d1e]
+- Updated dependencies [dda783e]
+  - @ilihub/square@1.0.0
+  - @ilihub/rectangle@1.0.0
+  - @ilihub/parallelogram@1.0.0
+
 ## 1.0.3
 
 ### Patch Changes

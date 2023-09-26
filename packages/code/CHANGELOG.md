@@ -1,5 +1,11 @@
 # @ilihub/code
 
+## 1.2.4
+
+### Patch Changes
+
+- @ilihub/math@1.0.4
+
 ## 1.2.3
 
 ### Patch Changes
