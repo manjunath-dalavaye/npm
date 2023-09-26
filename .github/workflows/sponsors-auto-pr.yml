@@ -3,8 +3,9 @@ name: Sponsors Auto PR
 on:
   workflow_dispatch:
   push:
-    branches:
-      - readme-update-sponsors-section
+    branches: ["readme-update-sponsors-section"]
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   auto_pr:
