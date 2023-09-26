@@ -1,10 +1,10 @@
 {
-  "name": "@ilihub/shape",
-  "version": "1.0.3",
+  "name": "@ilihub/area-of-square",
+  "version": "0.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "description": "A collection of useful TypeScript functions and utilities for mathematical operations on geometric shapes.",
+  "description": "A TypeScript library for calculating the area of a square.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -30,12 +30,9 @@
     "ilihub",
     "code",
     "math",
-    "geometry",
-    "shape",
-    "triangle",
-    "circle",
-    "semi-circle",
     "square",
+    "area of square",
+    "area",
     "tools",
     "typescript",
     "functions",
@@ -60,12 +57,6 @@
     "dev": "tsup --watch",
     "check-types": "tsc --noEmit",
     "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
-  },
-  "dependencies": {
-    "@ilihub/circle": "workspace:*",
-    "@ilihub/semi-circle": "workspace:*",
-    "@ilihub/square": "workspace:*",
-    "@ilihub/triangle": "workspace:*"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",

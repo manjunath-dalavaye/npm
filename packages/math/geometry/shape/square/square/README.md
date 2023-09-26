@@ -1,49 +1,46 @@
-# @ilihub/shape
+# @ilihub/square
 
-A collection of useful TypeScript functions and utilities for mathematical operations on geometric shapes.
+A collection of useful TypeScript functions for square related operations.
 
-![NPM Version](https://img.shields.io/npm/v/%40ilihub%2Fshape?color=33cd56&logo=npm)
-![NPM](https://img.shields.io/npm/l/%40ilihub%2Fshape)
+![NPM Version](https://img.shields.io/npm/v/%40ilihub%2Fsquare?color=33cd56&logo=npm)
+![NPM](https://img.shields.io/npm/l/%40ilihub%2Fsquare)
 [![CodeFactor](https://www.codefactor.io/repository/github/ilihub/npm/badge)](https://www.codefactor.io/repository/github/ilihub/npm)
-[![Socket Badge](https://socket.dev/api/badge/npm/package/@ilihub/shape)](https://socket.dev/npm/package/@ilihub/shape)
+[![Socket Badge](https://socket.dev/api/badge/npm/package/@ilihub/square)](https://socket.dev/npm/package/@ilihub/square)
 
 ## Installation
 
 ```bash
 # if you're using pnpm
-pnpm add @ilihub/shape
+pnpm add @ilihub/square
 
 # or, if you're using npm
-npm install @ilihub/shape
+npm install @ilihub/square
 
 # or, if you're using yarn
-yarn add @ilihub/shape
+yarn add @ilihub/square
 ```
 
 ## Usage
 
 ```javascript
-import { Triangle } from "@ilihub/shape";
+import { Square } from "@ilihub/square";
 
-const s1 = 6;
-const s2 = 5;
-const s3 = 4;
+const sideLength = 5;
 
-const triangle = new Triangle(s1, s2, s3);
+const square = new Square(sideLength);
 
-const area = triangle.area();
-console.log(area); // 9.921567416492215
+const area = square.area();
+console.log(area); // 25
 
-const perimeter = triangle.perimeter();
-console.log(perimeter); // 15
+const perimeter = square.perimeter();
+console.log(perimeter); // 20
 ```
 
 ## Available Functions and Classes
 
-- [Circle](https://www.npmjs.com/package/@ilihub/circle)
-- [Semi Circle](https://www.npmjs.com/package/@ilihub/semi-circle)
 - [Square](https://www.npmjs.com/package/@ilihub/square)
-- [Triangle](https://www.npmjs.com/package/@ilihub/triangle)
+- [Area Of Square](https://www.npmjs.com/package/@ilihub/area-of-square)
+- [Perimeter Of Square](https://www.npmjs.com/package/@ilihub/perimeter-of-square)
 
 ---
 
