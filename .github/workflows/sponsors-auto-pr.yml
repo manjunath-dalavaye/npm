@@ -3,7 +3,7 @@ name: Sponsors Auto PR
 on:
   workflow_dispatch:
   push:
-    branches: ["readme-update-sponsors-section"]
+    branches: ["master"]
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
