@@ -1,10 +1,10 @@
 {
-  "name": "@ilihub/shape",
-  "version": "1.0.4",
+  "name": "@ilihub/cube",
+  "version": "0.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "description": "A collection of useful TypeScript functions and utilities for mathematical operations on geometric shapes.",
+  "description": "A collection of useful TypeScript functions for cube related operations.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -30,17 +30,12 @@
     "ilihub",
     "code",
     "math",
-    "geometry",
-    "shape",
-    "triangle",
-    "circle",
-    "semi-circle",
-    "rectangle",
-    "parallelogram",
-    "square",
-    "rhombus",
-    "sphere",
     "cube",
+    "volume of cube",
+    "diagonal of cube",
+    "total surface area of cube",
+    "lateral surface area of cube",
+    "volume",
     "tools",
     "typescript",
     "functions",
@@ -67,15 +62,10 @@
     "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
   },
   "dependencies": {
-    "@ilihub/circle": "workspace:*",
-    "@ilihub/cube": "workspace:*",
-    "@ilihub/parallelogram": "workspace:*",
-    "@ilihub/rectangle": "workspace:*",
-    "@ilihub/rhombus": "workspace:*",
-    "@ilihub/semi-circle": "workspace:*",
-    "@ilihub/sphere": "workspace:*",
-    "@ilihub/square": "workspace:*",
-    "@ilihub/triangle": "workspace:*"
+    "@ilihub/diagonal-of-cube": "workspace:*",
+    "@ilihub/lateral-surface-area-of-cube": "workspace:*",
+    "@ilihub/total-surface-area-of-cube": "workspace:*",
+    "@ilihub/volume-of-cube": "workspace:*"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",

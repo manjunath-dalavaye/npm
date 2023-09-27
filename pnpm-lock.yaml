@@ -1043,6 +1043,42 @@ importers:
         specifier: workspace:*
         version: link:../../../../../../packages/math/geometry/shape/circle/circumference-of-circle
 
+  examples/math/geometry/shape/cube/cube-example:
+    devDependencies:
+      '@ilihub/cube':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/cube/cube
+
+  examples/math/geometry/shape/cube/cube-examples:
+    devDependencies:
+      '@ilihub/cube':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/cube/cube
+
+  examples/math/geometry/shape/cube/diagonal-of-cube-example:
+    devDependencies:
+      '@ilihub/diagonal-of-cube':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/cube/diagonal-of-cube
+
+  examples/math/geometry/shape/cube/lateral-surface-area-of-cube-example:
+    devDependencies:
+      '@ilihub/lateral-surface-area-of-cube':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/cube/lateral-surface-area-of-cube
+
+  examples/math/geometry/shape/cube/total-surface-area-of-cube-example:
+    devDependencies:
+      '@ilihub/total-surface-area-of-cube':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/cube/total-surface-area-of-cube
+
+  examples/math/geometry/shape/cube/volume-of-cube-example:
+    devDependencies:
+      '@ilihub/volume-of-cube':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/cube/volume-of-cube
+
   examples/math/geometry/shape/parallelogram/area-of-parallelogram-example:
     devDependencies:
       '@ilihub/area-of-parallelogram':
@@ -6415,6 +6451,154 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
+  packages/math/geometry/shape/cube/cube:
+    dependencies:
+      '@ilihub/diagonal-of-cube':
+        specifier: workspace:*
+        version: link:../diagonal-of-cube
+      '@ilihub/lateral-surface-area-of-cube':
+        specifier: workspace:*
+        version: link:../lateral-surface-area-of-cube
+      '@ilihub/total-surface-area-of-cube':
+        specifier: workspace:*
+        version: link:../total-surface-area-of-cube
+      '@ilihub/volume-of-cube':
+        specifier: workspace:*
+        version: link:../volume-of-cube
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.7.0
+        version: 20.7.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.7.0)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/cube/diagonal-of-cube:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.7.0
+        version: 20.7.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.7.0)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/cube/lateral-surface-area-of-cube:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.7.0
+        version: 20.7.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.7.0)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/cube/total-surface-area-of-cube:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.7.0
+        version: 20.7.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.7.0)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/cube/volume-of-cube:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.7.0
+        version: 20.7.0
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.7.0)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
   packages/math/geometry/shape/parallelogram/area-of-parallelogram:
     devDependencies:
       '@types/jest':
@@ -6772,6 +6956,9 @@ importers:
       '@ilihub/circle':
         specifier: workspace:*
         version: link:../circle/circle
+      '@ilihub/cube':
+        specifier: workspace:*
+        version: link:../cube/cube
       '@ilihub/parallelogram':
         specifier: workspace:*
         version: link:../parallelogram/parallelogram
