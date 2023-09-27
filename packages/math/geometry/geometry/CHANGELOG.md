@@ -1,5 +1,11 @@
 # @ilihub/geometry
 
+## 1.0.5
+
+### Patch Changes
+
+- @ilihub/shape@1.0.5
+
 ## 1.0.4
 
 ### Patch Changes

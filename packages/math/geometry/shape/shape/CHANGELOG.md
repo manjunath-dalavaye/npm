@@ -1,5 +1,16 @@
 # @ilihub/shape
 
+## 1.0.5
+
+### Patch Changes
+
+- Updated dependencies [b4ff9a5]
+- Updated dependencies [615641b]
+- Updated dependencies [712cde7]
+  - @ilihub/rhombus@1.0.0
+  - @ilihub/sphere@1.0.0
+  - @ilihub/cube@1.0.0
+
 ## 1.0.4
 
 ### Patch Changes
