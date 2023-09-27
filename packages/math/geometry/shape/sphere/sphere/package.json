@@ -1,10 +1,10 @@
 {
-  "name": "@ilihub/shape",
-  "version": "1.0.4",
+  "name": "@ilihub/sphere",
+  "version": "0.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "description": "A collection of useful TypeScript functions and utilities for mathematical operations on geometric shapes.",
+  "description": "A collection of useful TypeScript functions for sphere related operations.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -30,16 +30,13 @@
     "ilihub",
     "code",
     "math",
-    "geometry",
-    "shape",
-    "triangle",
-    "circle",
-    "semi-circle",
-    "rectangle",
-    "parallelogram",
-    "square",
-    "rhombus",
     "sphere",
+    "surface area of sphere",
+    "surface area",
+    "circumference of sphere",
+    "circumference",
+    "volume of sphere",
+    "volume",
     "tools",
     "typescript",
     "functions",
@@ -66,14 +63,9 @@
     "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
   },
   "dependencies": {
-    "@ilihub/circle": "workspace:*",
-    "@ilihub/parallelogram": "workspace:*",
-    "@ilihub/rectangle": "workspace:*",
-    "@ilihub/rhombus": "workspace:*",
-    "@ilihub/semi-circle": "workspace:*",
-    "@ilihub/sphere": "workspace:*",
-    "@ilihub/square": "workspace:*",
-    "@ilihub/triangle": "workspace:*"
+    "@ilihub/circumference-of-sphere": "workspace:*",
+    "@ilihub/surface-area-of-sphere": "workspace:*",
+    "@ilihub/volume-of-sphere": "workspace:*"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",

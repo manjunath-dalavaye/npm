@@ -45,6 +45,7 @@ console.log(perimeter); // 15
 - [Rectangle](https://www.npmjs.com/package/@ilihub/rectangle)
 - [Rhombus](https://www.npmjs.com/package/@ilihub/rhombus)
 - [Semi Circle](https://www.npmjs.com/package/@ilihub/semi-circle)
+- [Sphere](https://www.npmjs.com/package/@ilihub/sphere)
 - [Square](https://www.npmjs.com/package/@ilihub/square)
 - [Triangle](https://www.npmjs.com/package/@ilihub/triangle)
 
