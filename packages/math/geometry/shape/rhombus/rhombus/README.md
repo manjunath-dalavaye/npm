@@ -1,52 +1,44 @@
-# @ilihub/shape
+# @ilihub/rhombus
 
-A collection of useful TypeScript functions and utilities for mathematical operations on geometric shapes.
+A collection of useful TypeScript functions for rhombus related operations.
 
-![NPM Version](https://img.shields.io/npm/v/%40ilihub%2Fshape?color=33cd56&logo=npm)
-![NPM](https://img.shields.io/npm/l/%40ilihub%2Fshape)
+![NPM Version](https://img.shields.io/npm/v/%40ilihub%2Frhombus?color=33cd56&logo=npm)
+![NPM](https://img.shields.io/npm/l/%40ilihub%2Frhombus)
 [![CodeFactor](https://www.codefactor.io/repository/github/ilihub/npm/badge)](https://www.codefactor.io/repository/github/ilihub/npm)
-[![Socket Badge](https://socket.dev/api/badge/npm/package/@ilihub/shape)](https://socket.dev/npm/package/@ilihub/shape)
+[![Socket Badge](https://socket.dev/api/badge/npm/package/@ilihub/rhombus)](https://socket.dev/npm/package/@ilihub/rhombus)
 
 ## Installation
 
 ```bash
 # if you're using pnpm
-pnpm add @ilihub/shape
+pnpm add @ilihub/rhombus
 
 # or, if you're using npm
-npm install @ilihub/shape
+npm install @ilihub/rhombus
 
 # or, if you're using yarn
-yarn add @ilihub/shape
+yarn add @ilihub/rhombus
 ```
 
 ## Usage
 
 ```javascript
-import { Triangle } from "@ilihub/shape";
+import { Rhombus } from "@ilihub/rhombus";
 
-const s1 = 6;
-const s2 = 5;
-const s3 = 4;
+const rhombus = new Rhombus();
 
-const triangle = new Triangle(s1, s2, s3);
+const area = rhombus.area(10, 20);
+console.log(area); // 100
 
-const area = triangle.area();
-console.log(area); // 9.921567416492215
-
-const perimeter = triangle.perimeter();
-console.log(perimeter); // 15
+const perimeter = rhombus.perimeter(10);
+console.log(perimeter); // 40
 ```
 
 ## Available Functions and Classes
 
-- [Circle](https://www.npmjs.com/package/@ilihub/circle)
-- [Parallelogram](https://www.npmjs.com/package/@ilihub/parallelogram)
-- [Rectangle](https://www.npmjs.com/package/@ilihub/rectangle)
 - [Rhombus](https://www.npmjs.com/package/@ilihub/rhombus)
-- [Semi Circle](https://www.npmjs.com/package/@ilihub/semi-circle)
-- [Square](https://www.npmjs.com/package/@ilihub/square)
-- [Triangle](https://www.npmjs.com/package/@ilihub/triangle)
+- [Area Of Rhombus](https://www.npmjs.com/package/@ilihub/area-of-rhombus)
+- [Perimeter Of Rhombus](https://www.npmjs.com/package/@ilihub/perimeter-of-rhombus)
 
 ---
 
