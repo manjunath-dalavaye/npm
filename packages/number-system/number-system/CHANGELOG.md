@@ -1,5 +1,37 @@
 # @ilihub/number-system
 
+## 1.0.6
+
+### Patch Changes
+
+- 040cd3f: Update README
+- Updated dependencies [040cd3f]
+  - @ilihub/hexadecimal-to-decimal@1.0.5
+  - @ilihub/hexadecimal-to-binary@1.0.5
+  - @ilihub/hexadecimal-to-ascii@1.0.5
+  - @ilihub/hexadecimal-to-octal@1.0.5
+  - @ilihub/decimal-to-hexadecimal@1.0.5
+  - @ilihub/binary-to-hexadecimal@1.0.5
+  - @ilihub/ascii-to-hexadecimal@1.0.5
+  - @ilihub/octal-to-hexadecimal@1.0.5
+  - @ilihub/decimal-to-binary@1.0.5
+  - @ilihub/binary-to-decimal@1.0.5
+  - @ilihub/decimal-to-ascii@1.0.5
+  - @ilihub/decimal-to-octal@1.0.5
+  - @ilihub/hexadecimal@1.0.1
+  - @ilihub/ascii-to-decimal@1.0.5
+  - @ilihub/binary-to-ascii@1.0.5
+  - @ilihub/binary-to-octal@1.0.5
+  - @ilihub/octal-to-decimal@1.0.5
+  - @ilihub/ascii-to-binary@1.0.5
+  - @ilihub/octal-to-binary@1.0.5
+  - @ilihub/ascii-to-octal@1.0.5
+  - @ilihub/octal-to-ascii@1.0.5
+  - @ilihub/decimal@1.0.1
+  - @ilihub/binary@1.0.1
+  - @ilihub/ascii@1.0.1
+  - @ilihub/octal@1.0.1
+
 ## 1.0.5
 
 ### Patch Changes

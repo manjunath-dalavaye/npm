@@ -1,5 +1,17 @@
 # @ilihub/code
 
+## 1.2.6
+
+### Patch Changes
+
+- 040cd3f: Update README
+- Updated dependencies [040cd3f]
+  - @ilihub/number-system@1.0.6
+  - @ilihub/cryptography@1.0.1
+  - @ilihub/case@1.0.12
+  - @ilihub/math@1.0.6
+  - @ilihub/dsa@1.0.5
+
 ## 1.2.5
 
 ### Patch Changes

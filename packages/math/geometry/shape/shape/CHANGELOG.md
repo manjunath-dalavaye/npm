@@ -1,5 +1,21 @@
 # @ilihub/shape
 
+## 1.0.6
+
+### Patch Changes
+
+- 040cd3f: Update README
+- Updated dependencies [040cd3f]
+  - @ilihub/parallelogram@1.0.1
+  - @ilihub/triangle@1.0.2
+  - @ilihub/semi-circle@1.0.2
+  - @ilihub/rectangle@1.0.1
+  - @ilihub/rhombus@1.0.1
+  - @ilihub/circle@1.0.2
+  - @ilihub/sphere@1.0.1
+  - @ilihub/square@1.0.1
+  - @ilihub/cube@1.0.1
+
 ## 1.0.5
 
 ### Patch Changes

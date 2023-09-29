@@ -1,5 +1,14 @@
 # @ilihub/right-triangle
 
+## 1.0.2
+
+### Patch Changes
+
+- 040cd3f: Update README
+- Updated dependencies [040cd3f]
+  - @ilihub/perimeter-of-right-triangle@1.0.2
+  - @ilihub/area-of-right-triangle@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes

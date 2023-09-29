@@ -1,6 +1,6 @@
 {
   "name": "@ilihub/header-case-string-to-snake-case-string",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publishConfig": {
     "access": "public"
   },

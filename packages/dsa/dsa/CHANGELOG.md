@@ -1,5 +1,22 @@
 # @ilihub/dsa
 
+## 1.0.5
+
+### Patch Changes
+
+- 040cd3f: Update README
+- Updated dependencies [040cd3f]
+  - @ilihub/binary-search@1.0.5
+  - @ilihub/linear-search@1.0.5
+  - @ilihub/insertion-sort@1.0.5
+  - @ilihub/selection-sort@1.0.5
+  - @ilihub/counting-sort@1.0.5
+  - @ilihub/bubble-sort@1.0.5
+  - @ilihub/merge-sort@1.0.5
+  - @ilihub/quick-sort@1.0.5
+  - @ilihub/radix-sort@1.0.5
+  - @ilihub/heap-sort@1.0.5
+
 ## 1.0.4
 
 ### Patch Changes

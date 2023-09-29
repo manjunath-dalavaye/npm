@@ -1,6 +1,6 @@
 {
   "name": "@ilihub/pascal-case-string-to-header-case-string",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publishConfig": {
     "access": "public"
   },

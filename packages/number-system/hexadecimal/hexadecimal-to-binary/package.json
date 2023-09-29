@@ -1,6 +1,6 @@
 {
   "name": "@ilihub/hexadecimal-to-binary",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publishConfig": {
     "access": "public"
   },

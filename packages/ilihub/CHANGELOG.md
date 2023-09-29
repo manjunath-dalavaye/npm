@@ -1,5 +1,13 @@
 # ilihub
 
+## 1.0.13
+
+### Patch Changes
+
+- 040cd3f: Update README
+- Updated dependencies [040cd3f]
+  - @ilihub/code@1.2.6
+
 ## 1.0.12
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @ilihub/kebab-case-string-to-upper-case-string
 
+## 1.0.5
+
+### Patch Changes
+
+- 040cd3f: Update README
+
 ## 1.0.4
 
 ### Patch Changes
