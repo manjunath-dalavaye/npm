@@ -1,5 +1,12 @@
 # @ilihub/code
 
+## 1.2.7
+
+### Patch Changes
+
+- Updated dependencies [d3345ec]
+  - @ilihub/string@1.0.0
+
 ## 1.2.6
 
 ### Patch Changes
