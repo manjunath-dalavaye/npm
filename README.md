@@ -19,11 +19,11 @@ This repository contains the source code of the following npm packages and their
 | Package                                                                               | Description                                                                                   |
 | :------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------- |
 | [![ilihub/code][ilihub_code_npm_img]][ilihub_code_npm_url]                            | A collection of useful TypeScript functions.                                                  |
-| [![ilihub/case][ilihub_case_npm_img]][ilihub_case_npm_url]                            | A collection of useful TypeScript functions to convert strings between different cases.       |
 | [![ilihub/cryptography][ilihub_cryptography_npm_img]][ilihub_cryptography_npm_url]    | A collection of useful TypeScript functions to perform cryptographic operations.              |
 | [![ilihub/dsa][ilihub_dsa_npm_img]][ilihub_dsa_npm_url]                               | A collection of useful TypeScript functions and utilities for data structures and algorithms. |
 | [![ilihub/math][ilihub_math_npm_img]][ilihub_math_npm_url]                            | A collection of useful TypeScript functions to perform mathematical operations.               |
 | [![ilihub/number-system][ilihub_number_system_npm_img]][ilihub_number_system_npm_url] | A collection of useful TypeScript functions to perform number system conversions.             |
+| [![ilihub/string][ilihub_string_npm_img]][ilihub_string_npm_url]                      | A collection of useful TypeScript functions for string manipulation.                          |
 
 ---
 
@@ -55,7 +55,7 @@ This repository contains the source code of the following npm packages and their
    pnpm build --filter @ilihub/PACKAGE_NAME
    ```
 
-   Replace `PACKAGE_NAME` with the name of the package you want to build (`code`, `case`, `dsa`, `number-system`)
+   Replace `PACKAGE_NAME` with the name of the package you want to build (`code`, `string`, `dsa`, `number-system`)
 
 5. Run tests.
 
@@ -201,8 +201,6 @@ The core of ilihub is our crowd-funded open-source projects, licensed under the 
 [open_collective_img]: https://opencollective.com/ilihub/tiers/badge.svg
 [ilihub_code_npm_img]: https://img.shields.io/badge/%40ilihub/-code-blue?logo=npm
 [ilihub_code_npm_url]: https://www.npmjs.com/package/@ilihub/code
-[ilihub_case_npm_img]: https://img.shields.io/badge/%40ilihub/-case-blue?logo=npm
-[ilihub_case_npm_url]: https://www.npmjs.com/package/@ilihub/case
 [ilihub_cryptography_npm_img]: https://img.shields.io/badge/%40ilihub/-cryptography-blue?logo=npm
 [ilihub_cryptography_npm_url]: https://www.npmjs.com/package/@ilihub/cryptography
 [ilihub_dsa_npm_img]: https://img.shields.io/badge/%40ilihub/-dsa-blue?logo=npm
@@ -211,6 +209,8 @@ The core of ilihub is our crowd-funded open-source projects, licensed under the 
 [ilihub_math_npm_url]: https://www.npmjs.com/package/@ilihub/math
 [ilihub_number_system_npm_img]: https://img.shields.io/badge/%40ilihub/-number%20system-blue?logo=npm
 [ilihub_number_system_npm_url]: https://www.npmjs.com/package/@ilihub/number-system
+[ilihub_string_npm_img]: https://img.shields.io/badge/%40ilihub/-string-blue?logo=npm
+[ilihub_string_npm_url]: https://www.npmjs.com/package/@ilihub/string
 [finding_ways_to_contribute_to_open_source_on_github]: https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github "Finding ways to contribute to open source on GitHub"
 [set_up_git]: https://docs.github.com/en/get-started/quickstart/set-up-git "Set up Git"
 [github_flow]: https://docs.github.com/en/get-started/quickstart/github-flow "GitHub flow"

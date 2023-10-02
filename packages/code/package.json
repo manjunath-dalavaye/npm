@@ -53,11 +53,11 @@
     "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
   },
   "dependencies": {
-    "@ilihub/case": "workspace:*",
     "@ilihub/cryptography": "workspace:*",
     "@ilihub/dsa": "workspace:*",
     "@ilihub/math": "workspace:*",
-    "@ilihub/number-system": "workspace:*"
+    "@ilihub/number-system": "workspace:*",
+    "@ilihub/string": "workspace:*"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",
