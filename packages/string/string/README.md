@@ -33,6 +33,7 @@ console.log(CamelCaseStringToPascalCaseString(string)); // HelloWorld
 ## Available Functions and Classes
 
 - [Case](https://www.npmjs.com/package/@ilihub/case)
+- [Encoding](https://www.npmjs.com/package/@ilihub/encoding)
 
 ---
 

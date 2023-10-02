@@ -1,10 +1,10 @@
 {
-  "name": "@ilihub/string",
+  "name": "@ilihub/base64-to-string",
   "version": "0.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "description": "A collection of useful TypeScript functions for string manipulation.",
+  "description": "Decode base64 string to normal string.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -30,7 +30,8 @@
     "ilihub",
     "code",
     "string",
-    "case",
+    "base64",
+    "decode",
     "tools",
     "typescript",
     "functions",
@@ -55,10 +56,6 @@
     "dev": "tsup --watch",
     "check-types": "tsc --noEmit",
     "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
-  },
-  "dependencies": {
-    "@ilihub/case": "workspace:*",
-    "@ilihub/encoding": "workspace:*"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",

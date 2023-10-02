@@ -1,10 +1,10 @@
 {
-  "name": "@ilihub/string",
+  "name": "@ilihub/encoding",
   "version": "0.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "description": "A collection of useful TypeScript functions for string manipulation.",
+  "description": "A collection of TypeScript functions for encoding and decoding strings.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -30,7 +30,8 @@
     "ilihub",
     "code",
     "string",
-    "case",
+    "encode",
+    "decode",
     "tools",
     "typescript",
     "functions",
@@ -57,8 +58,8 @@
     "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
   },
   "dependencies": {
-    "@ilihub/case": "workspace:*",
-    "@ilihub/encoding": "workspace:*"
+    "@ilihub/base64-to-string": "workspace:*",
+    "@ilihub/string-to-base64": "workspace:*"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",
