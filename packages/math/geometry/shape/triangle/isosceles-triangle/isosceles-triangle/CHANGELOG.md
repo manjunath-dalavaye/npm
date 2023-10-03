@@ -1,5 +1,14 @@
 # @ilihub/isosceles-triangle
 
+## 1.0.3
+
+### Patch Changes
+
+- 470633b: Update README
+- Updated dependencies [470633b]
+  - @ilihub/perimeter-of-isosceles-triangle@1.0.3
+  - @ilihub/area-of-isosceles-triangle@1.0.3
+
 ## 1.0.2
 
 ### Patch Changes

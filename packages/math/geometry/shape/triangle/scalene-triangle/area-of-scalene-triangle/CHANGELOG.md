@@ -1,5 +1,13 @@
 # @ilihub/area-of-scalene-triangle
 
+## 1.0.3
+
+### Patch Changes
+
+- 470633b: Update README
+- Updated dependencies [470633b]
+  - @ilihub/area-of-triangle@1.0.3
+
 ## 1.0.2
 
 ### Patch Changes

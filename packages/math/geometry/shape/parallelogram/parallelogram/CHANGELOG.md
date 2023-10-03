@@ -1,5 +1,14 @@
 # @ilihub/parallelogram
 
+## 1.0.2
+
+### Patch Changes
+
+- 470633b: Update README
+- Updated dependencies [470633b]
+  - @ilihub/perimeter-of-parallelogram@1.0.2
+  - @ilihub/area-of-parallelogram@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes

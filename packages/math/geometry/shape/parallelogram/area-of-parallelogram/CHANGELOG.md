@@ -1,5 +1,11 @@
 # @ilihub/area-of-parallelogram
 
+## 1.0.2
+
+### Patch Changes
+
+- 470633b: Update README
+
 ## 1.0.1
 
 ### Patch Changes

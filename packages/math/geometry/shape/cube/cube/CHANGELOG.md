@@ -1,5 +1,16 @@
 # @ilihub/cube
 
+## 1.0.2
+
+### Patch Changes
+
+- 470633b: Update README
+- Updated dependencies [470633b]
+  - @ilihub/lateral-surface-area-of-cube@1.0.2
+  - @ilihub/total-surface-area-of-cube@1.0.2
+  - @ilihub/diagonal-of-cube@1.0.2
+  - @ilihub/volume-of-cube@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes

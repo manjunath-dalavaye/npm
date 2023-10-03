@@ -1,5 +1,26 @@
 # @ilihub/triangle
 
+## 1.0.3
+
+### Patch Changes
+
+- 470633b: Update README
+- Updated dependencies [470633b]
+  - @ilihub/perimeter-of-equilateral-triangle@1.0.3
+  - @ilihub/perimeter-of-isosceles-triangle@1.0.3
+  - @ilihub/area-of-equilateral-triangle@1.0.3
+  - @ilihub/perimeter-of-scalene-triangle@1.0.3
+  - @ilihub/area-of-isosceles-triangle@1.0.3
+  - @ilihub/perimeter-of-right-triangle@1.0.3
+  - @ilihub/equilateral-triangle@1.0.3
+  - @ilihub/area-of-scalene-triangle@1.0.3
+  - @ilihub/isosceles-triangle@1.0.3
+  - @ilihub/area-of-right-triangle@1.0.3
+  - @ilihub/scalene-triangle@1.0.3
+  - @ilihub/perimeter-of-triangle@1.0.3
+  - @ilihub/right-triangle@1.0.3
+  - @ilihub/area-of-triangle@1.0.3
+
 ## 1.0.2
 
 ### Patch Changes

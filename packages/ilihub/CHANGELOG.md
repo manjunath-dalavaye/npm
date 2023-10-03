@@ -1,5 +1,13 @@
 # ilihub
 
+## 1.0.15
+
+### Patch Changes
+
+- 470633b: Update README
+- Updated dependencies [470633b]
+  - @ilihub/code@1.2.8
+
 ## 1.0.14
 
 ### Patch Changes

@@ -1,5 +1,17 @@
 # @ilihub/code
 
+## 1.2.8
+
+### Patch Changes
+
+- 470633b: Update README
+- Updated dependencies [470633b]
+  - @ilihub/number-system@1.0.7
+  - @ilihub/cryptography@1.0.2
+  - @ilihub/string@1.0.1
+  - @ilihub/math@1.0.7
+  - @ilihub/dsa@1.0.6
+
 ## 1.2.7
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @ilihub/camel-case-string-to-title-case-string
 
+## 1.0.6
+
+### Patch Changes
+
+- 470633b: Update README
+
 ## 1.0.5
 
 ### Patch Changes

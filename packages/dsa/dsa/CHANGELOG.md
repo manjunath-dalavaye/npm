@@ -1,5 +1,22 @@
 # @ilihub/dsa
 
+## 1.0.6
+
+### Patch Changes
+
+- 470633b: Update README
+- Updated dependencies [470633b]
+  - @ilihub/binary-search@1.0.6
+  - @ilihub/linear-search@1.0.6
+  - @ilihub/insertion-sort@1.0.6
+  - @ilihub/selection-sort@1.0.6
+  - @ilihub/counting-sort@1.0.6
+  - @ilihub/bubble-sort@1.0.6
+  - @ilihub/merge-sort@1.0.6
+  - @ilihub/quick-sort@1.0.6
+  - @ilihub/radix-sort@1.0.6
+  - @ilihub/heap-sort@1.0.6
+
 ## 1.0.5
 
 ### Patch Changes

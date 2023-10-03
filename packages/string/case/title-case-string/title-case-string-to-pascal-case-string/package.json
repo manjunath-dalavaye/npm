@@ -1,6 +1,6 @@
 {
   "name": "@ilihub/title-case-string-to-pascal-case-string",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publishConfig": {
     "access": "public"
   },

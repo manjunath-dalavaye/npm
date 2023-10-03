@@ -1,6 +1,6 @@
 {
   "name": "@ilihub/kebab-case-string-to-sentence-case-string",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publishConfig": {
     "access": "public"
   },

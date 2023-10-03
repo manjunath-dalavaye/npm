@@ -1,5 +1,13 @@
 # @ilihub/geometry
 
+## 1.0.7
+
+### Patch Changes
+
+- 470633b: Update README
+- Updated dependencies [470633b]
+  - @ilihub/shape@1.0.7
+
 ## 1.0.6
 
 ### Patch Changes
