@@ -41,12 +41,13 @@ console.log(TitleCaseStringToPathCaseString(string));
 
 ## Sponsors & Backers
 
-[![Diamond Sponsor][diamond_sponsor_img]][open_collective_url]
-[![Platinum Sponsor][platinum_sponsor_img]][open_collective_url]
-[![Gold Sponsor][gold_sponsor_img]][open_collective_url]
-[![Silver Sponsor][silver_sponsor_img]][open_collective_url]
-[![Backer][backer_img]][open_collective_url]
-[![Supporter][supporter_img]][open_collective_url]
+[![Eternal Sponsor][eternal_sponsor_img]][eternal_sponsor_url]
+[![Diamond Sponsor][diamond_sponsor_img]][diamond_sponsor_url]
+[![Platinum Sponsor][platinum_sponsor_img]][platinum_sponsor_url]
+[![Gold Sponsor][gold_sponsor_img]][gold_sponsor_url]
+[![Silver Sponsor][silver_sponsor_img]][silver_sponsor_url]
+[![Backer][backer_img]][backer_url]
+[![Supporter][supporter_img]][supporter_url]
 
 Support the development of new open-source projects from ilihub through crowdfunding.
 
@@ -54,27 +55,31 @@ The core of ilihub is our crowd-funded open-source projects, licensed under the 
 
 <div align="center">
 
-### <img align="left" width="20" src="https://em-content.zobj.net/source/skype/289/gem-stone_1f48e.png" /> Diamond Sponsor <img align="right" width="20" src="https://em-content.zobj.net/source/skype/289/gem-stone_1f48e.png" />
+### <img align="left" width="20" src="https://em-content.zobj.net/source/skype/289/gem-stone_1f48e.png" /> [Eternal Sponsor][eternal_sponsor_url] <img align="right" width="20" src="https://em-content.zobj.net/source/skype/289/gem-stone_1f48e.png" />
+
+![Eternal Sponsor][eternal_sponsor_logo_img]
+
+### <img align="left" width="20" src="https://em-content.zobj.net/source/skype/289/gem-stone_1f48e.png" /> [Diamond Sponsor][diamond_sponsor_url] <img align="right" width="20" src="https://em-content.zobj.net/source/skype/289/gem-stone_1f48e.png" />
 
 ![Diamond Sponsor][diamond_sponsor_logo_img]
 
-### <img align="left" width="20" src="https://em-content.zobj.net/source/microsoft-teams/363/glowing-star_1f31f.png" /> Platinum Sponsors <img align="right" width="20" src="https://em-content.zobj.net/source/microsoft-teams/363/glowing-star_1f31f.png" />
+### <img align="left" width="20" src="https://em-content.zobj.net/source/microsoft-teams/363/glowing-star_1f31f.png" /> [Platinum Sponsor][platinum_sponsor_url] <img align="right" width="20" src="https://em-content.zobj.net/source/microsoft-teams/363/glowing-star_1f31f.png" />
 
 ![Platinum Sponsor][platinum_sponsor_logo_img]
 
-### <img align="left" width="20" src="https://em-content.zobj.net/source/skype/289/1st-place-medal_1f947.png" /> Gold Sponsors <img align="right" width="20" src="https://em-content.zobj.net/source/skype/289/1st-place-medal_1f947.png" />
+### <img align="left" width="20" src="https://em-content.zobj.net/source/skype/289/1st-place-medal_1f947.png" /> [Gold Sponsor][gold_sponsor_url] <img align="right" width="20" src="https://em-content.zobj.net/source/skype/289/1st-place-medal_1f947.png" />
 
 ![Gold Sponsor][gold_sponsor_logo_img]
 
-### <img align="left" width="20" src="https://em-content.zobj.net/source/skype/289/2nd-place-medal_1f948.png" /> Silver Sponsors <img align="right" width="20" src="https://em-content.zobj.net/source/skype/289/2nd-place-medal_1f948.png" />
+### <img align="left" width="20" src="https://em-content.zobj.net/source/skype/289/2nd-place-medal_1f948.png" /> [Silver Sponsor][silver_sponsor_url] <img align="right" width="20" src="https://em-content.zobj.net/source/skype/289/2nd-place-medal_1f948.png" />
 
 ![Silver Sponsor][silver_sponsor_logo_img]
 
-### <img align="left" width="20" src="https://em-content.zobj.net/source/microsoft-teams/363/heart-with-ribbon_1f49d.png" /> Backers <img align="right" width="20" src="https://em-content.zobj.net/source/microsoft-teams/363/heart-with-ribbon_1f49d.png" />
+### <img align="left" width="20" src="https://em-content.zobj.net/source/microsoft-teams/363/heart-with-ribbon_1f49d.png" /> [Backer][backer_url] <img align="right" width="20" src="https://em-content.zobj.net/source/microsoft-teams/363/heart-with-ribbon_1f49d.png" />
 
 ![Backer][backer_logo_img]
 
-### <img align="left" width="20" src="https://em-content.zobj.net/source/microsoft-teams/363/handshake_1f91d.png" /> Supporters <img align="right" width="20" src="https://em-content.zobj.net/source/microsoft-teams/363/handshake_1f91d.png" />
+### <img align="left" width="20" src="https://em-content.zobj.net/source/microsoft-teams/363/handshake_1f91d.png" /> [Supporter][supporter_url] <img align="right" width="20" src="https://em-content.zobj.net/source/microsoft-teams/363/handshake_1f91d.png" />
 
 ![Supporter][supporter_logo_img]
 
@@ -82,19 +87,27 @@ The core of ilihub is our crowd-funded open-source projects, licensed under the 
 
 <!-- Reference Links -->
 
-[open_collective_url]: https://opencollective.com/ilihub
+[eternal_sponsor_img]: https://opencollective.com/ilihub/tiers/eternal-sponsor/badge.svg?label=%F0%9F%92%8E%20Eternal%20Sponsor%20%F0%9F%92%8E&color=brightgreen
 [diamond_sponsor_img]: https://opencollective.com/ilihub/tiers/diamond-sponsor/badge.svg?label=%F0%9F%92%8E%20Diamond%20Sponsor%20%F0%9F%92%8E&color=brightgreen
 [platinum_sponsor_img]: https://opencollective.com/ilihub/tiers/platinum-sponsor/badge.svg?label=%F0%9F%8C%9F%20Platinum%20Sponsor%20%F0%9F%8C%9F&color=brightgreen
 [gold_sponsor_img]: https://opencollective.com/ilihub/tiers/gold-sponsor/badge.svg?label=%F0%9F%A5%87%20Gold%20Sponsor%20%F0%9F%A5%87&color=brightgreen
 [silver_sponsor_img]: https://opencollective.com/ilihub/tiers/silver-sponsor/badge.svg?label=%F0%9F%A5%88%20Silver%20Sponsor%20%F0%9F%A5%88&color=brightgreen
 [backer_img]: https://opencollective.com/ilihub/tiers/backer/badge.svg?label=%F0%9F%92%9D%20Backer%20%F0%9F%92%9D&color=brightgreen
 [supporter_img]: https://opencollective.com/ilihub/tiers/supporter/badge.svg?label=%F0%9F%A4%9D%20Supporter%20%F0%9F%A4%9D&color=brightgreen
+[eternal_sponsor_logo_img]: https://opencollective.com/ilihub/tiers/eternal-sponsor.svg?avatarHeight=164&width=600&button=false
 [diamond_sponsor_logo_img]: https://opencollective.com/ilihub/tiers/diamond-sponsor.svg?avatarHeight=164&width=600&button=false
 [platinum_sponsor_logo_img]: https://opencollective.com/ilihub/tiers/platinum-sponsor.svg?avatarHeight=128&width=600&button=false
 [gold_sponsor_logo_img]: https://opencollective.com/ilihub/tiers/gold-sponsor.svg?avatarHeight=96&width=600&button=false
 [silver_sponsor_logo_img]: https://opencollective.com/ilihub/tiers/silver-sponsor.svg?avatarHeight=84&width=600&button=false
 [backer_logo_img]: https://opencollective.com/ilihub/tiers/backer.svg?avatarHeight=60&width=600
 [supporter_logo_img]: https://opencollective.com/ilihub/tiers/supporter.svg?avatarHeight=36&width=600
+[eternal_sponsor_url]: https://opencollective.com/ilihub/contribute/eternal-sponsor-66224
+[diamond_sponsor_url]: https://opencollective.com/ilihub/contribute/diamond-sponsor-65913
+[platinum_sponsor_url]: https://opencollective.com/ilihub/contribute/platinum-sponsor-65912
+[gold_sponsor_url]: https://opencollective.com/ilihub/contribute/gold-sponsor-65914
+[silver_sponsor_url]: https://opencollective.com/ilihub/contribute/silver-sponsor-65916
+[backer_url]: https://opencollective.com/ilihub/contribute/backer-65354
+[supporter_url]: https://opencollective.com/ilihub/contribute/supporter-65355
 
 <!-- Reference Links End -->
 
