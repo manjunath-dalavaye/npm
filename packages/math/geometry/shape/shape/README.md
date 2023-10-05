@@ -42,6 +42,7 @@ console.log(perimeter); // 15
 
 - [Circle](https://www.npmjs.com/package/@ilihub/circle)
 - [Cube](https://www.npmjs.com/package/@ilihub/cube)
+- [Cuboid](https://www.npmjs.com/package/@ilihub/cuboid)
 - [Parallelogram](https://www.npmjs.com/package/@ilihub/parallelogram)
 - [Rectangle](https://www.npmjs.com/package/@ilihub/rectangle)
 - [Rhombus](https://www.npmjs.com/package/@ilihub/rhombus)
