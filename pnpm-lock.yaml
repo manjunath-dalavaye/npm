@@ -281,6 +281,36 @@ importers:
         specifier: workspace:*
         version: link:../../../../../../packages/math/geometry/shape/cuboid/volume-of-cuboid
 
+  examples/math/geometry/shape/cylinder/cylinder-example:
+    devDependencies:
+      '@ilihub/cylinder':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/cylinder/cylinder
+
+  examples/math/geometry/shape/cylinder/cylinder-examples:
+    devDependencies:
+      '@ilihub/cylinder':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/cylinder/cylinder
+
+  examples/math/geometry/shape/cylinder/lateral-surface-area-of-cylinder-example:
+    devDependencies:
+      '@ilihub/lateral-surface-area-of-cylinder':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/cylinder/lateral-surface-area-of-cylinder
+
+  examples/math/geometry/shape/cylinder/total-surface-area-of-cylinder-example:
+    devDependencies:
+      '@ilihub/total-surface-area-of-cylinder':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/cylinder/total-surface-area-of-cylinder
+
+  examples/math/geometry/shape/cylinder/volume-of-cylinder-example:
+    devDependencies:
+      '@ilihub/volume-of-cylinder':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/geometry/shape/cylinder/volume-of-cylinder
+
   examples/math/geometry/shape/parallelogram/area-of-parallelogram-example:
     devDependencies:
       '@ilihub/area-of-parallelogram':
@@ -2644,6 +2674,124 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
+  packages/math/geometry/shape/cylinder/cylinder:
+    dependencies:
+      '@ilihub/lateral-surface-area-of-cylinder':
+        specifier: workspace:*
+        version: link:../lateral-surface-area-of-cylinder
+      '@ilihub/total-surface-area-of-cylinder':
+        specifier: workspace:*
+        version: link:../total-surface-area-of-cylinder
+      '@ilihub/volume-of-cylinder':
+        specifier: workspace:*
+        version: link:../volume-of-cylinder
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/cylinder/lateral-surface-area-of-cylinder:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/cylinder/total-surface-area-of-cylinder:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/geometry/shape/cylinder/volume-of-cylinder:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
   packages/math/geometry/shape/parallelogram/area-of-parallelogram:
     devDependencies:
       '@types/jest':
@@ -3010,6 +3158,9 @@ importers:
       '@ilihub/cuboid':
         specifier: workspace:*
         version: link:../cuboid/cuboid
+      '@ilihub/cylinder':
+        specifier: workspace:*
+        version: link:../cylinder/cylinder
       '@ilihub/parallelogram':
         specifier: workspace:*
         version: link:../parallelogram/parallelogram

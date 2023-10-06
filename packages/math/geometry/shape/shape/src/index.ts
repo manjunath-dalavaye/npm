@@ -2,6 +2,7 @@ export * from "@ilihub/circle";
 export * from "@ilihub/cone";
 export * from "@ilihub/cube";
 export * from "@ilihub/cuboid";
+export * from "@ilihub/cylinder";
 export * from "@ilihub/parallelogram";
 export * from "@ilihub/rectangle";
 export * from "@ilihub/rhombus";
