@@ -1,5 +1,12 @@
 # @ilihub/shape
 
+## 1.0.9
+
+### Patch Changes
+
+- Updated dependencies [855d2ab]
+  - @ilihub/cylinder@1.0.0
+
 ## 1.0.8
 
 ### Patch Changes
