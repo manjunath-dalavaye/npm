@@ -41,6 +41,7 @@ console.log(perimeter); // 15
 ## Available Functions and Classes
 
 - [Circle](https://www.npmjs.com/package/@ilihub/circle)
+- [Cone](https://www.npmjs.com/package/@ilihub/cone)
 - [Cube](https://www.npmjs.com/package/@ilihub/cube)
 - [Cuboid](https://www.npmjs.com/package/@ilihub/cuboid)
 - [Parallelogram](https://www.npmjs.com/package/@ilihub/parallelogram)

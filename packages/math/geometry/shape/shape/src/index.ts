@@ -1,4 +1,5 @@
 export * from "@ilihub/circle";
+export * from "@ilihub/cone";
 export * from "@ilihub/cube";
 export * from "@ilihub/cuboid";
 export * from "@ilihub/parallelogram";
