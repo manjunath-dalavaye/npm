@@ -1,5 +1,14 @@
 # @ilihub/shape
 
+## 1.0.8
+
+### Patch Changes
+
+- Updated dependencies [8f735b8]
+- Updated dependencies [b9faa33]
+  - @ilihub/cuboid@1.0.0
+  - @ilihub/cone@1.0.0
+
 ## 1.0.7
 
 ### Patch Changes

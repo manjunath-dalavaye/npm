@@ -1,5 +1,11 @@
 # ilihub
 
+## 1.0.16
+
+### Patch Changes
+
+- @ilihub/code@1.2.9
+
 ## 1.0.15
 
 ### Patch Changes
