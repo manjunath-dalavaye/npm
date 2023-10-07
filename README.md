@@ -105,7 +105,7 @@ You can contribute to this repository in the following ways.
 
 ---
 
-## New contributor guide
+### New contributor guide
 
 Here are some resources to help you get started with open source contributions:
 
@@ -113,6 +113,39 @@ Here are some resources to help you get started with open source contributions:
 - [Set up Git][set_up_git]
 - [GitHub flow][github_flow]
 - [Collaborating with pull requests][collaborating_with_pull_requests]
+
+---
+
+> [!IMPORTANT]
+>
+> ### Acknowledgement
+>
+> It's important to have a development system that meets minimum requirements to effectively contribute to and utilize the project's potential.
+>
+> #### Minimum System Requirements
+>
+> This project has been developed and tested on the following minimum system configuration:
+>
+> - **Processor**: Intel i3-7020U (4) @ 2.300GHz
+> - **Graphics**: Intel HD Graphics 620
+> - **RAM**: 8GB
+> - **Storage**: 500MB available space
+> - **Operating System**: Fedora Linux 38 (Workstation Edition) x86_64
+> - **Internet Connection**: Required for fetching dependencies and updates
+
+> [!NOTE]
+>
+> Please ensure that your system meets or exceeds these specifications to ensure optimal performance and a smooth development experience. Your understanding and compliance with these requirements are greatly appreciated.
+
+---
+
+> [!IMPORTANT]
+>
+> ### Build Time
+>
+> The initial build will take approximately 30 minutes with minimum system requirements, then it will use Turbo Cache[^turbo_cache]
+
+[^turbo_cache]: Learn more about Turbo Caching here 👉🏻 <https://turbo.build/repo/docs/core-concepts/caching>
 
 ---
 

@@ -569,6 +569,84 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/math/math
 
+  examples/math/measurement/measurement-examples:
+    devDependencies:
+      '@ilihub/measurement':
+        specifier: workspace:*
+        version: link:../../../../packages/math/measurement/measurement
+
+  examples/math/measurement/time/millisecond/millisecond-example:
+    devDependencies:
+      '@ilihub/millisecond':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/time/millisecond/millisecond
+
+  examples/math/measurement/time/millisecond/millisecond-examples:
+    devDependencies:
+      '@ilihub/millisecond':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/time/millisecond/millisecond
+
+  examples/math/measurement/time/millisecond/millisecond-to-century-example:
+    devDependencies:
+      '@ilihub/millisecond-to-century':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/time/millisecond/millisecond-to-century
+
+  examples/math/measurement/time/millisecond/millisecond-to-day-example:
+    devDependencies:
+      '@ilihub/millisecond-to-day':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/time/millisecond/millisecond-to-day
+
+  examples/math/measurement/time/millisecond/millisecond-to-decade-example:
+    devDependencies:
+      '@ilihub/millisecond-to-decade':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/time/millisecond/millisecond-to-decade
+
+  examples/math/measurement/time/millisecond/millisecond-to-hour-example:
+    devDependencies:
+      '@ilihub/millisecond-to-hour':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/time/millisecond/millisecond-to-hour
+
+  examples/math/measurement/time/millisecond/millisecond-to-minute-example:
+    devDependencies:
+      '@ilihub/millisecond-to-minute':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/time/millisecond/millisecond-to-minute
+
+  examples/math/measurement/time/millisecond/millisecond-to-month-example:
+    devDependencies:
+      '@ilihub/millisecond-to-month':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/time/millisecond/millisecond-to-month
+
+  examples/math/measurement/time/millisecond/millisecond-to-second-example:
+    devDependencies:
+      '@ilihub/millisecond-to-second':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/time/millisecond/millisecond-to-second
+
+  examples/math/measurement/time/millisecond/millisecond-to-week-example:
+    devDependencies:
+      '@ilihub/millisecond-to-week':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/time/millisecond/millisecond-to-week
+
+  examples/math/measurement/time/millisecond/millisecond-to-year-example:
+    devDependencies:
+      '@ilihub/millisecond-to-year':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/time/millisecond/millisecond-to-year
+
+  examples/math/measurement/time/time-examples:
+    devDependencies:
+      '@ilihub/time':
+        specifier: workspace:*
+        version: link:../../../../../packages/math/measurement/time/time
+
   examples/number-system/ascii/ascii-example:
     devDependencies:
       '@ilihub/ascii':
@@ -3903,6 +3981,9 @@ importers:
       '@ilihub/geometry':
         specifier: workspace:*
         version: link:../geometry/geometry
+      '@ilihub/measurement':
+        specifier: workspace:*
+        version: link:../measurement/measurement
     devDependencies:
       '@types/jest':
         specifier: ^29.5.5
@@ -3922,6 +4003,366 @@ importers:
       tsconfig:
         specifier: workspace:*
         version: link:../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/measurement:
+    dependencies:
+      '@ilihub/time':
+        specifier: workspace:*
+        version: link:../time/time
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/time/millisecond/millisecond:
+    dependencies:
+      '@ilihub/millisecond-to-century':
+        specifier: workspace:*
+        version: link:../millisecond-to-century
+      '@ilihub/millisecond-to-day':
+        specifier: workspace:*
+        version: link:../millisecond-to-day
+      '@ilihub/millisecond-to-decade':
+        specifier: workspace:*
+        version: link:../millisecond-to-decade
+      '@ilihub/millisecond-to-hour':
+        specifier: workspace:*
+        version: link:../millisecond-to-hour
+      '@ilihub/millisecond-to-minute':
+        specifier: workspace:*
+        version: link:../millisecond-to-minute
+      '@ilihub/millisecond-to-month':
+        specifier: workspace:*
+        version: link:../millisecond-to-month
+      '@ilihub/millisecond-to-second':
+        specifier: workspace:*
+        version: link:../millisecond-to-second
+      '@ilihub/millisecond-to-week':
+        specifier: workspace:*
+        version: link:../millisecond-to-week
+      '@ilihub/millisecond-to-year':
+        specifier: workspace:*
+        version: link:../millisecond-to-year
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/time/millisecond/millisecond-to-century:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/time/millisecond/millisecond-to-day:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/time/millisecond/millisecond-to-decade:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/time/millisecond/millisecond-to-hour:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/time/millisecond/millisecond-to-minute:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/time/millisecond/millisecond-to-month:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/time/millisecond/millisecond-to-second:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/time/millisecond/millisecond-to-week:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/time/millisecond/millisecond-to-year:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/time/time:
+    dependencies:
+      '@ilihub/millisecond':
+        specifier: workspace:*
+        version: link:../millisecond/millisecond
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.2
+        version: 20.8.2
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.2)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../configs/tsconfig
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)

@@ -30,6 +30,8 @@
     "ilihub",
     "code",
     "math",
+    "geometry",
+    "measurements",
     "tools",
     "typescript",
     "functions",
@@ -56,7 +58,8 @@
     "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
   },
   "dependencies": {
-    "@ilihub/geometry": "workspace:*"
+    "@ilihub/geometry": "workspace:*",
+    "@ilihub/measurement": "workspace:*"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",

@@ -41,6 +41,7 @@ console.log(perimeter); // 15
 ## Available Functions and Classes
 
 - [Geometry](https://www.npmjs.com/package/@ilihub/geometry)
+- [Measurement](https://www.npmjs.com/package/@ilihub/measurement)
 
 ---
 
