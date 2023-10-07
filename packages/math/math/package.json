@@ -1,6 +1,6 @@
 {
   "name": "@ilihub/math",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "publishConfig": {
     "access": "public"
   },
