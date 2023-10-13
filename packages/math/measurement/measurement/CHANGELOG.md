@@ -1,5 +1,11 @@
 # @ilihub/measurement
 
+## 1.0.1
+
+### Patch Changes
+
+- @ilihub/time@1.0.1
+
 ## 1.0.0
 
 ### Major Changes
