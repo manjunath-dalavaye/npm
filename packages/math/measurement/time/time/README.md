@@ -34,6 +34,15 @@ console.log(minute); // 1
 ## Available Functions and Classes
 
 - [Millisecond](https://www.npmjs.com/package/@ilihub/millisecond)
+- [Second](https://www.npmjs.com/package/@ilihub/second)
+- [Minute](https://www.npmjs.com/package/@ilihub/minute)
+- [Hour](https://www.npmjs.com/package/@ilihub/hour)
+- [Day](https://www.npmjs.com/package/@ilihub/day)
+- [Week](https://www.npmjs.com/package/@ilihub/week)
+- [Month](https://www.npmjs.com/package/@ilihub/month)
+- [Year](https://www.npmjs.com/package/@ilihub/year)
+- [Decade](https://www.npmjs.com/package/@ilihub/decade)
+- [Century](https://www.npmjs.com/package/@ilihub/century)
 
 ---
 

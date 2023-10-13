@@ -33,6 +33,15 @@
     "measurement",
     "time",
     "millisecond",
+    "second",
+    "minute",
+    "hour",
+    "day",
+    "week",
+    "month",
+    "year",
+    "decade",
+    "century",
     "tools",
     "typescript",
     "functions",
@@ -59,7 +68,16 @@
     "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
   },
   "dependencies": {
-    "@ilihub/millisecond": "workspace:*"
+    "@ilihub/millisecond": "workspace:*",
+    "@ilihub/second": "workspace:*",
+    "@ilihub/minute": "workspace:*",
+    "@ilihub/hour": "workspace:*",
+    "@ilihub/day": "workspace:*",
+    "@ilihub/week": "workspace:*",
+    "@ilihub/month": "workspace:*",
+    "@ilihub/year": "workspace:*",
+    "@ilihub/decade": "workspace:*",
+    "@ilihub/century": "workspace:*"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",

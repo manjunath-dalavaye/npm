@@ -1,0 +1,90 @@
+{
+  "name": "@ilihub/second",
+  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "TypeScript functions for converting second to other time units.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "homepage": "https://code.ilihub.tech",
+  "funding": "https://opencollective.com/ilihub",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilihub/npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilihub/npm/issues",
+    "email": "contact@ilihub.tech"
+  },
+  "author": {
+    "name": "ilihub",
+    "email": "contact@ilihub.tech",
+    "url": "https://github.com/ilihub"
+  },
+  "keywords": [
+    "ilihub",
+    "code",
+    "math",
+    "time",
+    "millisecond",
+    "second",
+    "minute",
+    "hour",
+    "day",
+    "week",
+    "month",
+    "year",
+    "decade",
+    "century",
+    "tools",
+    "typescript",
+    "functions",
+    "utils"
+  ],
+  "tsup": {
+    "treeshake": true,
+    "splitting": true,
+    "entry": [
+      "src/index.ts"
+    ],
+    "format": [
+      "cjs"
+    ],
+    "dts": true,
+    "minify": true,
+    "clean": true
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\"",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "check-types": "tsc --noEmit",
+    "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
+  },
+  "dependencies": {
+    "@ilihub/second-to-millisecond": "workspace:*",
+    "@ilihub/second-to-minute": "workspace:*",
+    "@ilihub/second-to-hour": "workspace:*",
+    "@ilihub/second-to-day": "workspace:*",
+    "@ilihub/second-to-week": "workspace:*",
+    "@ilihub/second-to-month": "workspace:*",
+    "@ilihub/second-to-year": "workspace:*",
+    "@ilihub/second-to-decade": "workspace:*",
+    "@ilihub/second-to-century": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.8.2",
+    "eslint-config-custom": "workspace:*",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "tsconfig": "workspace:*",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}

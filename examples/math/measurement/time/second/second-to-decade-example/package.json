@@ -1,0 +1,12 @@
+{
+  "name": "second-to-decade-example",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "find . -type f -name \"*.js\" -not -path \"./node_modules/*\" -exec sh -c 'val=$(node \"{}\"); echo \"{} ==> $val\"' \\;"
+  },
+  "devDependencies": {
+    "@ilihub/second-to-decade": "workspace:*"
+  }
+}
