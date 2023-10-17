@@ -575,6 +575,192 @@ importers:
         specifier: workspace:*
         version: link:../../../../packages/math/measurement/measurement
 
+  examples/math/measurement/temperature/celsius/celsius-example:
+    devDependencies:
+      '@ilihub/celsius':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/celsius/celsius
+
+  examples/math/measurement/temperature/celsius/celsius-examples:
+    devDependencies:
+      '@ilihub/celsius':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/celsius/celsius
+
+  examples/math/measurement/temperature/celsius/celsius-to-fahrenheit-example:
+    devDependencies:
+      '@ilihub/celsius-to-fahrenheit':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/celsius/celsius-to-fahrenheit
+
+  examples/math/measurement/temperature/celsius/celsius-to-kelvin-example:
+    devDependencies:
+      '@ilihub/celsius-to-kelvin':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/celsius/celsius-to-kelvin
+
+  examples/math/measurement/temperature/celsius/celsius-to-rankine-example:
+    devDependencies:
+      '@ilihub/celsius-to-rankine':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/celsius/celsius-to-rankine
+
+  examples/math/measurement/temperature/celsius/celsius-to-reaumur-example:
+    devDependencies:
+      '@ilihub/celsius-to-reaumur':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/celsius/celsius-to-reaumur
+
+  examples/math/measurement/temperature/fahrenheit/fahrenheit-example:
+    devDependencies:
+      '@ilihub/fahrenheit':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/fahrenheit/fahrenheit
+
+  examples/math/measurement/temperature/fahrenheit/fahrenheit-examples:
+    devDependencies:
+      '@ilihub/fahrenheit':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/fahrenheit/fahrenheit
+
+  examples/math/measurement/temperature/fahrenheit/fahrenheit-to-celsius-example:
+    devDependencies:
+      '@ilihub/fahrenheit-to-celsius':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/fahrenheit/fahrenheit-to-celsius
+
+  examples/math/measurement/temperature/fahrenheit/fahrenheit-to-kelvin-example:
+    devDependencies:
+      '@ilihub/fahrenheit-to-kelvin':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/fahrenheit/fahrenheit-to-kelvin
+
+  examples/math/measurement/temperature/fahrenheit/fahrenheit-to-rankine-example:
+    devDependencies:
+      '@ilihub/fahrenheit-to-rankine':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/fahrenheit/fahrenheit-to-rankine
+
+  examples/math/measurement/temperature/fahrenheit/fahrenheit-to-reaumur-example:
+    devDependencies:
+      '@ilihub/fahrenheit-to-reaumur':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/fahrenheit/fahrenheit-to-reaumur
+
+  examples/math/measurement/temperature/kelvin/kelvin-example:
+    devDependencies:
+      '@ilihub/kelvin':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/kelvin/kelvin
+
+  examples/math/measurement/temperature/kelvin/kelvin-examples:
+    devDependencies:
+      '@ilihub/kelvin':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/kelvin/kelvin
+
+  examples/math/measurement/temperature/kelvin/kelvin-to-celsius-example:
+    devDependencies:
+      '@ilihub/kelvin-to-celsius':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/kelvin/kelvin-to-celsius
+
+  examples/math/measurement/temperature/kelvin/kelvin-to-fahrenheit-example:
+    devDependencies:
+      '@ilihub/kelvin-to-fahrenheit':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/kelvin/kelvin-to-fahrenheit
+
+  examples/math/measurement/temperature/kelvin/kelvin-to-rankine-example:
+    devDependencies:
+      '@ilihub/kelvin-to-rankine':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/kelvin/kelvin-to-rankine
+
+  examples/math/measurement/temperature/kelvin/kelvin-to-reaumur-example:
+    devDependencies:
+      '@ilihub/kelvin-to-reaumur':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/kelvin/kelvin-to-reaumur
+
+  examples/math/measurement/temperature/rankine/rankine-example:
+    devDependencies:
+      '@ilihub/rankine':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/rankine/rankine
+
+  examples/math/measurement/temperature/rankine/rankine-examples:
+    devDependencies:
+      '@ilihub/rankine':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/rankine/rankine
+
+  examples/math/measurement/temperature/rankine/rankine-to-celsius-example:
+    devDependencies:
+      '@ilihub/rankine-to-celsius':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/rankine/rankine-to-celsius
+
+  examples/math/measurement/temperature/rankine/rankine-to-fahrenheit-example:
+    devDependencies:
+      '@ilihub/rankine-to-fahrenheit':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/rankine/rankine-to-fahrenheit
+
+  examples/math/measurement/temperature/rankine/rankine-to-kelvin-example:
+    devDependencies:
+      '@ilihub/rankine-to-kelvin':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/rankine/rankine-to-kelvin
+
+  examples/math/measurement/temperature/rankine/rankine-to-reaumur-example:
+    devDependencies:
+      '@ilihub/rankine-to-reaumur':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/rankine/rankine-to-reaumur
+
+  examples/math/measurement/temperature/reaumur/reaumur-example:
+    devDependencies:
+      '@ilihub/reaumur':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/reaumur/reaumur
+
+  examples/math/measurement/temperature/reaumur/reaumur-examples:
+    devDependencies:
+      '@ilihub/reaumur':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/reaumur/reaumur
+
+  examples/math/measurement/temperature/reaumur/reaumur-to-celsius-example:
+    devDependencies:
+      '@ilihub/reaumur-to-celsius':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/reaumur/reaumur-to-celsius
+
+  examples/math/measurement/temperature/reaumur/reaumur-to-fahrenheit-example:
+    devDependencies:
+      '@ilihub/reaumur-to-fahrenheit':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/reaumur/reaumur-to-fahrenheit
+
+  examples/math/measurement/temperature/reaumur/reaumur-to-kelvin-example:
+    devDependencies:
+      '@ilihub/reaumur-to-kelvin':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/reaumur/reaumur-to-kelvin
+
+  examples/math/measurement/temperature/reaumur/reaumur-to-rankine-example:
+    devDependencies:
+      '@ilihub/reaumur-to-rankine':
+        specifier: workspace:*
+        version: link:../../../../../../packages/math/measurement/temperature/reaumur/reaumur-to-rankine
+
+  examples/math/measurement/temperature/temperature-examples:
+    devDependencies:
+      '@ilihub/temperature':
+        specifier: workspace:*
+        version: link:../../../../../packages/math/measurement/temperature/temperature
+
   examples/math/measurement/time/century/century-example:
     devDependencies:
       '@ilihub/century':
@@ -4606,6 +4792,9 @@ importers:
 
   packages/math/measurement/measurement:
     dependencies:
+      '@ilihub/temperature':
+        specifier: workspace:*
+        version: link:../temperature/temperature
       '@ilihub/time':
         specifier: workspace:*
         version: link:../time/time
@@ -4628,6 +4817,789 @@ importers:
       tsconfig:
         specifier: workspace:*
         version: link:../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/celsius/celsius:
+    dependencies:
+      '@ilihub/celsius-to-fahrenheit':
+        specifier: workspace:*
+        version: link:../celsius-to-fahrenheit
+      '@ilihub/celsius-to-kelvin':
+        specifier: workspace:*
+        version: link:../celsius-to-kelvin
+      '@ilihub/celsius-to-rankine':
+        specifier: workspace:*
+        version: link:../celsius-to-rankine
+      '@ilihub/celsius-to-reaumur':
+        specifier: workspace:*
+        version: link:../celsius-to-reaumur
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/celsius/celsius-to-fahrenheit:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/celsius/celsius-to-kelvin:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/celsius/celsius-to-rankine:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/celsius/celsius-to-reaumur:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/fahrenheit/fahrenheit:
+    dependencies:
+      '@ilihub/fahrenheit-to-celsius':
+        specifier: workspace:*
+        version: link:../fahrenheit-to-celsius
+      '@ilihub/fahrenheit-to-kelvin':
+        specifier: workspace:*
+        version: link:../fahrenheit-to-kelvin
+      '@ilihub/fahrenheit-to-rankine':
+        specifier: workspace:*
+        version: link:../fahrenheit-to-rankine
+      '@ilihub/fahrenheit-to-reaumur':
+        specifier: workspace:*
+        version: link:../fahrenheit-to-reaumur
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/fahrenheit/fahrenheit-to-celsius:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/fahrenheit/fahrenheit-to-kelvin:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/fahrenheit/fahrenheit-to-rankine:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/fahrenheit/fahrenheit-to-reaumur:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/kelvin/kelvin:
+    dependencies:
+      '@ilihub/kelvin-to-celsius':
+        specifier: workspace:*
+        version: link:../kelvin-to-celsius
+      '@ilihub/kelvin-to-fahrenheit':
+        specifier: workspace:*
+        version: link:../kelvin-to-fahrenheit
+      '@ilihub/kelvin-to-rankine':
+        specifier: workspace:*
+        version: link:../kelvin-to-rankine
+      '@ilihub/kelvin-to-reaumur':
+        specifier: workspace:*
+        version: link:../kelvin-to-reaumur
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/kelvin/kelvin-to-celsius:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/kelvin/kelvin-to-fahrenheit:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/kelvin/kelvin-to-rankine:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/kelvin/kelvin-to-reaumur:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/rankine/rankine:
+    dependencies:
+      '@ilihub/rankine-to-celsius':
+        specifier: workspace:*
+        version: link:../rankine-to-celsius
+      '@ilihub/rankine-to-fahrenheit':
+        specifier: workspace:*
+        version: link:../rankine-to-fahrenheit
+      '@ilihub/rankine-to-kelvin':
+        specifier: workspace:*
+        version: link:../rankine-to-kelvin
+      '@ilihub/rankine-to-reaumur':
+        specifier: workspace:*
+        version: link:../rankine-to-reaumur
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/rankine/rankine-to-celsius:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/rankine/rankine-to-fahrenheit:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/rankine/rankine-to-kelvin:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/rankine/rankine-to-reaumur:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/reaumur/reaumur:
+    dependencies:
+      '@ilihub/reaumur-to-celsius':
+        specifier: workspace:*
+        version: link:../reaumur-to-celsius
+      '@ilihub/reaumur-to-fahrenheit':
+        specifier: workspace:*
+        version: link:../reaumur-to-fahrenheit
+      '@ilihub/reaumur-to-kelvin':
+        specifier: workspace:*
+        version: link:../reaumur-to-kelvin
+      '@ilihub/reaumur-to-rankine':
+        specifier: workspace:*
+        version: link:../reaumur-to-rankine
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/reaumur/reaumur-to-celsius:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/reaumur/reaumur-to-fahrenheit:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/reaumur/reaumur-to-kelvin:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/reaumur/reaumur-to-rankine:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../../configs/tsconfig
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+  packages/math/measurement/temperature/temperature:
+    dependencies:
+      '@ilihub/celsius':
+        specifier: workspace:*
+        version: link:../celsius/celsius
+      '@ilihub/fahrenheit':
+        specifier: workspace:*
+        version: link:../fahrenheit/fahrenheit
+      '@ilihub/kelvin':
+        specifier: workspace:*
+        version: link:../kelvin/kelvin
+      '@ilihub/rankine':
+        specifier: workspace:*
+        version: link:../rankine/rankine
+      '@ilihub/reaumur':
+        specifier: workspace:*
+        version: link:../reaumur/reaumur
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.5
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.8.6
+        version: 20.8.6
+      eslint-config-custom:
+        specifier: workspace:*
+        version: link:../../../../../configs/eslint-config-custom
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.8.6)
+      ts-jest:
+        specifier: ^29.1.1
+        version: 29.1.1(@babel/core@7.22.19)(esbuild@0.18.20)(jest@29.7.0)(typescript@5.2.2)
+      tsconfig:
+        specifier: workspace:*
+        version: link:../../../../../configs/tsconfig
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)

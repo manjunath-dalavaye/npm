@@ -34,6 +34,7 @@ console.log(minute); // 1
 ## Available Functions and Classes
 
 - [Time](https://www.npmjs.com/package/@ilihub/time)
+- [Temperature](https://www.npmjs.com/package/@ilihub/temperature)
 
 ---
 

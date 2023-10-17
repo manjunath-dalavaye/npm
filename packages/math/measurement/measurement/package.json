@@ -32,6 +32,7 @@
     "math",
     "measurement",
     "time",
+    "temperature",
     "tools",
     "typescript",
     "functions",
@@ -58,7 +59,8 @@
     "test": "jest --config jestconfig.json --maxWorkers=50% --passWithNoTests"
   },
   "dependencies": {
-    "@ilihub/time": "workspace:*"
+    "@ilihub/time": "workspace:*",
+    "@ilihub/temperature": "workspace:*"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",
