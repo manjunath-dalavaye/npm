@@ -1,5 +1,16 @@
 # @ilihub/measurement
 
+## 1.1.0
+
+### Minor Changes
+
+- 505fa59: Add @ilihub/temperature
+
+### Patch Changes
+
+- Updated dependencies [505fa59]
+  - @ilihub/temperature@1.0.0
+
 ## 1.0.1
 
 ### Patch Changes

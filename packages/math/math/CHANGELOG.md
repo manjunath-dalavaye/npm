@@ -1,5 +1,12 @@
 # @ilihub/math
 
+## 1.0.12
+
+### Patch Changes
+
+- Updated dependencies [505fa59]
+  - @ilihub/measurement@1.1.0
+
 ## 1.0.11
 
 ### Patch Changes
